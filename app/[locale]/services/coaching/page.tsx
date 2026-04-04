@@ -26,8 +26,8 @@ export default function CoachingPage() {
           </div>
           <div className="content-block" style={{ marginTop: '40px', textAlign: 'center' }}>
             <p>{t('intro.p2')}</p>
-            <div className="image-container" style={{ marginTop: '40px', maxWidth: '800px', margin: '40px auto' }}>
-              <img src="/images/coachings.jpg" alt="Coaching in action" style={{ borderRadius: '15px' }} />
+            <div className="image-container" style={{ marginTop: '40px', maxWidth: '600px', margin: '40px auto' }}>
+              <img src="/images/coachings.jpg" alt="Coaching in action" style={{ width: '100%', borderRadius: '15px' }} />
             </div>
           </div>
         </div>

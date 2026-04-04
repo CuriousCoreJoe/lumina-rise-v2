@@ -29,7 +29,7 @@ export default function AboutPage() {
       {/* Passion Section */}
       <section style={{ padding: '80px 0' }}>
         <div className="container" style={{ display: 'flex', flexWrap: 'wrap', gap: '40px', alignItems: 'center' }}>
-          <div style={{ flex: 1, minWidth: '300px' }}>
+          <div style={{ flex: 1, minWidth: '300px', maxWidth: '500px' }}>
             <img src="/images/about-founder.jpg" alt="Gina-Line" style={{ width: '100%', borderRadius: '15px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }} />
           </div>
           <div style={{ flex: 1, minWidth: '300px' }}>

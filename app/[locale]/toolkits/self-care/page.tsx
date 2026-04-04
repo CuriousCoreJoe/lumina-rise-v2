@@ -40,7 +40,7 @@ export default function TokenSelfCarePage() {
                 ))}
               </ul>
             </div>
-            <div style={{ flex: 1, minWidth: '300px' }}>
+            <div style={{ flex: 1, minWidth: '300px', maxWidth: '500px' }}>
               <img src="/images/self-care-importance.jpg" alt="Self-care Importance" style={{ width: '100%', borderRadius: '15px', boxShadow: '0 5px 15px rgba(0,0,0,0.1)' }} />
             </div>
           </div>

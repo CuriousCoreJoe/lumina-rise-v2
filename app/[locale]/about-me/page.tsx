@@ -30,8 +30,8 @@ export default function AboutMePage() {
       <section style={{ padding: '80px 0' }}>
         <div className="container">
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '40px', alignItems: 'center' }}>
-            <div style={{ flex: 1, minWidth: '300px' }}>
-              <img src="/images/about-founder.jpg" alt="Gina-Line" style={{ width: '1000%', borderRadius: '15px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }} />
+            <div style={{ flex: 1, minWidth: '300px', maxWidth: '500px' }}>
+              <img src="/images/about-founder.jpg" alt="Gina-Line" style={{ width: '100%', borderRadius: '15px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }} />
             </div>
             <div style={{ flex: 1, minWidth: '300px' }}>
               <h2 style={{ color: 'var(--primary-color)', marginBottom: '20px' }}>{t('passion.title')}</h2>

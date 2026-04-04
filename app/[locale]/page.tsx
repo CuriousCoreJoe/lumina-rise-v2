@@ -14,6 +14,11 @@ export default function HomePage() {
           <h2>{t('title')}</h2>
           <p>{t('description')}</p>
           <a href="#contact" className="btn">{t('startJourney')}</a>
+          <div className="hero-social-icons" style={{ marginTop: '30px', display: 'flex', gap: '20px', justifyContent: 'center' }}>
+            <a href="https://www.instagram.com/luminarise_selfgrowth/" target="_blank" rel="noopener noreferrer" title="Instagram" style={{ color: 'var(--soft-peach)', fontSize: '1.8rem', transition: 'transform 0.3s, color 0.3s' }}><i className="fab fa-instagram"></i></a>
+            <a href="https://ca.pinterest.com/LuminariseSelfGrowth/mind-health/" target="_blank" rel="noopener noreferrer" title="Pinterest" style={{ color: 'var(--soft-peach)', fontSize: '1.8rem', transition: 'transform 0.3s, color 0.3s' }}><i className="fab fa-pinterest-p"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61566373727142" target="_blank" rel="noopener noreferrer" title="Facebook" style={{ color: 'var(--soft-peach)', fontSize: '1.8rem', transition: 'transform 0.3s, color 0.3s' }}><i className="fab fa-facebook-f"></i></a>
+          </div>
         </div>
       </section>
 

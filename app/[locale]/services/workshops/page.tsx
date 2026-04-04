@@ -24,8 +24,8 @@ export default function WorkshopsPage() {
           </div>
           <div className="content-block" style={{ marginTop: '40px', textAlign: 'center' }}>
             <p>{t('intro.p2')}</p>
-            <div className="image-container" style={{ marginTop: '40px', maxWidth: '800px', margin: '40px auto' }}>
-              <img src="/images/workshops.jpg" alt="Workshops and Group Growth" style={{ borderRadius: '15px' }} />
+            <div className="image-container" style={{ marginTop: '40px', maxWidth: '600px', margin: '40px auto' }}>
+              <img src="/images/workshops.jpg" alt="Workshops and Group Growth" style={{ width: '100%', borderRadius: '15px' }} />
             </div>
           </div>
         </div>
