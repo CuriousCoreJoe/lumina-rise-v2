@@ -417,7 +417,7 @@
         ]
       },
       "buy": {
-        "btn": "Buy the Toolkit – USD 28",
+        "btn": "Buy the Toolkit – CAD 28",
         "info": "Secure payment via Stripe. Credit cards, Apple Pay, and Google Pay accepted. You will receive the toolkit via email within 24 hours of payment."
       }
     },
@@ -425,7 +425,7 @@
       "title": "The Personal Growth Toolkit",
       "description": "Strategies to evolve and thrive through goal-setting exercises and reflective journaling prompts.",
       "heroBtn": "Explore the Tools",
-      "buyBtn": "Buy the Toolkit – USD 28"
+      "buyBtn": "Buy the Toolkit – CAD 28"
     },
     "Empowerment": {
       "title": "Empowerment Essentials",
