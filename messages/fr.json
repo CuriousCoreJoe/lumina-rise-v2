@@ -1,0 +1,471 @@
+{
+  "Index": {
+    "title": "Aider les femmes à s'élever et à briller",
+    "description": "Découvrez les outils et les conseils dont vous avez besoin pour nourrir votre santé mentale, embrasser votre croissance personnelle et transformer votre vie.",
+    "startJourney": "Commencez votre parcours",
+    "credibility": {
+      "yale": "Certificat Yale",
+      "wellBeing": "Science du bien-être",
+      "tenYears": "10+ Années",
+      "expertise": "Expertise en croissance",
+      "evidence": "Approche basée sur la science",
+      "coach": "Coach en Psychologie Positive"
+    },
+    "about": {
+      "title": "À propos de Lumina Rise",
+      "subtitle": "Dédié à aider les femmes à croire en elles-mêmes et à libérer leur plein potentiel.",
+      "heading": "Votre voyage de découverte de soi",
+      "p1": "Chez Lumina Rise, nous comprenons que le parcours de chaque femme est unique. Notre mission est de vous fournir les outils, les ressources et le soutien dont vous avez besoin pour surmonter les défis, renforcer votre résilience et créer une vie remplie de sens et de joie.",
+      "p2": "Fondé sur la conviction que le soin de soi et la croissance personnelle sont des chemins interconnectés vers l'autonomisation, nous proposons une approche holistique du développement personnel qui nourrit votre esprit, votre corps et votre âme.",
+      "p3": "Que vous cherchiez à améliorer votre santé mentale, à renforcer votre confiance ou à découvrir votre véritable but, Lumina Rise est là pour vous guider à chaque étape.",
+      "founderBtn": "À propos de la fondatrice"
+    },
+    "qualification": {
+      "forYou": "C'est pour vous si :",
+      "notForYou": "Ce n'est pas pour vous si :",
+      "items": {
+        "work": "Vous êtes prête à faire le travail et à fournir des efforts constants",
+        "goals": "Vous vous engagez à donner suite à vos objectifs",
+        "time": "Vous comprenez que les résultats réels demandent du temps et du dévouement",
+        "invest": "Vous êtes prête à investir en vous-même et dans votre croissance",
+        "change": "Vous voulez un changement authentique et durable dans votre vie",
+        "learning": "Vous êtes ouverte à l'apprentissage de nouvelles méthodes",
+        "comfort": "Vous êtes prête à sortir de votre zone de confort",
+        "quality": "Vous privilégiez la qualité aux solutions rapides",
+        "magic": "Vous cherchez une pilule magique ou un succès immédiat",
+        "effort": "Vous attendez des résultats sans fournir d'effort",
+        "investTime": "Vous n'êtes pas prête à investir du temps dans le processus",
+        "others": "Vous voulez que quelqu'un d'autre fasse tout le travail pour vous",
+        "promises": "Vous cherchez des promesses ou garanties irréalistes",
+        "ready": "Vous n'êtes pas prête à faire les changements nécessaires",
+        "blame": "Vous préférez blâmer les autres plutôt que de prendre vos responsabilités",
+        "cheap": "Vous cherchez l'option la moins chère, quelle que soit la valeur"
+      }
+    },
+    "services": {
+      "title": "Nos Services",
+      "subtitle": "Des programmes et services sur mesure pour soutenir votre parcours de croissance personnelle.",
+      "coaching": {
+        "title": "Coaching Individuel",
+        "description": "Séances de coaching personnalisées avec une coach certifiée en psychologie positive pour répondre à vos défis et objectifs uniques."
+      },
+      "workshops": {
+        "title": "Ateliers de Groupe *Bientôt",
+        "description": "Des ateliers interactifs axés sur des aspects spécifiques du soin de soi et de la croissance personnelle dans un environnement communautaire solidaire."
+      },
+      "speaking": {
+        "title": "Conférences & Webinaires",
+        "description": "Des sessions d'inspiration disponibles en personne et en ligne, couvrant des thèmes de psychologie positive et des stratégies de croissance."
+      },
+      "learnMore": "En savoir plus",
+      "comingSoon": "Bientôt disponible"
+    },
+    "consultation": {
+      "title": "Réservez votre consultation individuelle",
+      "subtitle": "Prête à passer à l'étape suivante de votre développement personnel ? Je propose des consultations personnalisées pour vous aider à libérer votre potentiel.",
+      "p1": "Que vous cherchiez à instaurer des habitudes positives, à clarifier vos objectifs ou à explorer la science du bien-être, je suis là pour vous soutenir.",
+      "btn": "Séance découverte gratuite"
+    },
+    "toolbox": {
+      "title": "Le concept de la Boîte à Outils",
+      "subtitle": "Votre vie est votre plus grande création, et chaque créatrice a besoin des bons outils. Tout comme un constructeur ne bâtirait pas une maison sans plans et sans équipement approprié, vous ne devriez pas naviguer dans les complexités de la vie sans ressources conçues pour votre succès.",
+      "selfCare": {
+        "title": "La Boîte à Outils de Soins Personnels",
+        "pages": "(77 pages - FR ou EN)",
+        "description": "Nourrissez votre âme et rechargez votre esprit avec des pratiques quotidiennes, des guides de pleine conscience et des routines d'auto-soin."
+      },
+      "personalGrowth": {
+        "title": "Boîte à Outils de Croissance Personnelle",
+        "pages": "(78 pages - EN seulement pour le moment)",
+        "description": "Des stratégies pour évoluer et s'épanouir grâce à des exercices de définition d'objectifs et des invites de journalisation."
+      },
+      "empowerment": {
+        "title": "Essentiels de l'Autonomisation",
+        "status": "- Bientôt disponible",
+        "description": "Des outils pour construire une confiance inébranlable avec des activités de renforcement de la confiance et des modules de leadership."
+      },
+      "btn": "Explorer la Boîte à Outils"
+    },
+    "faq": {
+      "title": "FAQ : Comprendre votre parcours",
+      "btn": "Voir le guide complet Q&A"
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "subtitle": "Prête à commencer votre parcours de croissance ? Contactez-nous dès aujourd'hui pour voir comment nous pouvons soutenir votre transformation.",
+      "info": {
+        "title": "Informations de contact",
+        "description": "N'hésitez pas à nous contacter pour toute question sur le coaching, les ateliers ou les boîtes à outils.",
+        "email": "Luminariseselfgrowth@gmail.com",
+        "location": "Services virtuels disponibles dans le monde entier"
+      },
+      "form": {
+        "title": "Envoyer un message",
+        "name": "Votre Nom",
+        "email": "Votre Courriel",
+        "interest": "Je suis intéressée par...",
+        "interests": {
+          "coaching": "Coaching Individuel",
+          "workshop": "Ateliers de Groupe",
+          "speaking": "Conférence / Webinaire",
+          "toolkit": "Achat de Boîte à Outils",
+          "other": "Demande générale"
+        },
+        "message": "Votre Message",
+        "submit": "Envoyer le message"
+      }
+    }
+  },
+  "AboutMe": {
+    "title": "Mon Histoire",
+    "description": "Aider les femmes à découvrir leur force intérieure et à transformer leur vie, à travers l'expérience et le voyage que j'ai moi-même parcouru.",
+    "heroBtn": "En savoir plus",
+    "intro": {
+      "title": "Le voyage qui a mené à Lumina Rise",
+      "p1": "À travers mes expériences personnelles et professionnelles, j'ai compris que la croissance n'est pas un luxe mais une responsabilité envers soi-même. Lumina Rise est devenu l'espace que j'aurais aimé avoir à certains moments de ma vie."
+    },
+    "passion": {
+      "title": "Passion pour le développement de soi",
+      "p1": "Bonjour, je suis Gina-Line, le cœur et l'âme de Lumina Rise. Après plus d'une décennie d'immersion profonde dans mon propre parcours de développement personnel, j'ai ressenti un appel puissant à créer un espace où les femmes pourraient se sentir véritablement vues, soutenues et encouragées à devenir la version la plus radieuse d'elles-mêmes. J'ai traversé des saisons difficiles, redécouvert ma force intérieure et appris par moi-même le pouvoir transformateur de la résilience, de l'état d'esprit et du soin de soi. C'est pourquoi je suis si passionnée par l'idée d'aider les autres à faire de même.",
+      "p2": "Avec une formation en coaching de psychologie positive, un certificat de Yale en bien-être et un amour inébranlable pour la croissance personnelle, je guide maintenant les femmes vers des vies remplies de sens, de confiance et de joie. Lumina Rise n'est pas seulement une marque, c'est un mouvement. Enraciné dans l'authenticité, la croissance et une profonde compassion. Que vous soyez ici pour guérir, évoluer ou vous reconnecter avec votre véritable moi, je suis honorée de parcourir ce chemin à vos côtés.",
+      "p3": "Dans un monde toujours pressé, Lumina Rise offre un rythme différent, un rythme qui mêle le soin de soi à la croissance personnelle, et le travail intérieur à l'action concrète. Je suis ici pour vous équiper d'outils, d'idées et d'un soutien sincère qui vous aideront à vous épanouir, et pas seulement à fonctionner.",
+      "p4": "Ce qui illumine vraiment mon âme, c'est d'être témoin de cette étincelle, le moment où une femme réalise son propre pouvoir et commence à s'investir pleinement dans sa vie. C'est pour ce genre de magie que je vis.",
+      "p5": "Je suis infiniment curieuse de la manière dont l'état d'esprit, les émotions et l'action intentionnelle créent une transformation durable. J'explore toujours de nouvelles idées, des sagesses anciennes et des pratiques basées sur des données probantes qui aident les femmes à s'épanouir de l'intérieur. C'est pourquoi je suis si attirée par la psychologie positive, elle combine la science du bien-être avec le cœur d'une vie pleine de sens.",
+      "p6": "Au fond de moi, je suis animée par une passion simple mais puissante : aider les femmes à retrouver leur joie, leur confiance et leur sens des possibilités. Quel que soit le stade du voyage où vous vous trouvez, sachez ceci... vous n'êtes pas seule. Et votre ascension ? Elle commence ici même."
+    },
+    "mission": {
+      "title": "Le cœur de Lumina Rise",
+      "subtitle": "Transformez votre potentiel en puissance à chaque étape de votre parcours",
+      "missionTitle": "Mission",
+      "missionText": "Fournir aux femmes des outils innovants, exploitables et inspirants qui soutiennent la santé mentale, encouragent la croissance personnelle et favorisent une communauté de femmes fortes et confiantes.",
+      "visionTitle": "Vision",
+      "visionText": "Devenir une ressource de premier plan dans le développement personnel féminin, transformant les pratiques quotidiennes de soins personnels en un puissant voyage d'évolution personnelle.",
+      "valuesTitle": "Valeurs Fondamentales",
+      "values": [
+        "Authenticité - Encourager l'expression de soi et la croissance réelle",
+        "Autonomisation - Fournir des outils qui renforcent l'indépendance et la confiance",
+        "Compassion - Aborder toutes les interactions avec bienveillance et compréhension",
+        "État d'Esprit de Croissance - Considérer les défis comme des opportunités de développement"
+      ],
+      "intersectionTitle": "Où le Soin de Soi rencontre la Croissance",
+      "intersectionP1": "Cette déclaration puissante reflète notre approche holistique de l'autonomisation des femmes. Nous reconnaissons que le soin de soi n'est pas seulement une question de plaisir ou de pause face aux exigences de la vie. Il s'agit de créer une base solide de bien-être physique, émotionnel et mental qui vous permet de poursuivre vos objectifs et vos rêves avec vigueur et résilience.",
+      "intersectionP2": "De même, la croissance personnelle n'est pas seulement une question de se pousser à accomplir davantage. Il s'agit d'élargir vos horizons, de défier vos limites et d'évoluer vers la meilleure version de vous-même – tout en maintenant une attitude compatissante et nourrissante envers votre propre parcours.",
+      "intersectionP3": "Notre slogan incarne l'idée que le soin de soi et la croissance personnelle ne s'excluent pas mutuellement, mais sont plutôt des forces complémentaires. Lorsque vous apprenez à prendre soin de vous profondément et à grandir intentionnellement, vous créez une boucle de rétroaction positive qui vous propulse vers votre plus haut potentiel. C'est l'essence de ce que j'offre chez Lumina Rise... un voyage où chaque pas vers la croissance est aussi un acte d'amour et de soin de soi.",
+      "intersectionP4": "Ce voyage consiste à créer un espace où vous n'êtes pas seulement en survie, mais en plein épanouissement. Lorsque vous prenez soin de vous, vous développez votre résilience, votre intelligence émotionnelle et votre bien-être physique, tous essentiels pour une croissance durable.",
+      "intersectionP5": "Cette philosophie promeut l'idée que la croissance ne doit pas être douloureuse ou accablante. Elle peut être édifiante, guérissante et profondément personnelle. Lorsque le bien-être est tissé dans votre parcours de croissance, vous constaterez que les deux deviennent plus faciles et plus épanouissants, menant à une vie plus significative."
+    },
+    "toolbox": {
+      "title": "Le concept de la Boîte à Outils",
+      "subtitle": "Des outils différents pour des tâches différentes",
+      "text": "Tout comme un artisan sélectionne les bons outils pour chaque projet, créer une vie épanouie et autonome commence par la construction de votre propre boîte à outils personnalisée. Parce que le chemin de chaque femme est différent, votre boîte à outils est adaptée à vos défis spécifiques, amplifie vos forces et nourrit vos aspirations les plus profondes. Avec les bons outils en main, vous êtes équipée pour vous élever, reconstruire et prospérer, peu importe ce qui se présente."
+    }
+  },
+  "FAQ": {
+    "title": "FAQ : Comprendre votre parcours",
+    "description": "Des réponses claires pour vous aider à naviguer entre développement personnel, croissance et soin de soi.",
+    "heroBtn": "Commencez votre parcours",
+    "roadmap": {
+      "title": "La feuille de route Lumina Rise",
+      "subtitle": "Des espaces de transformation pour les femmes prêtes à s'épanouir, même si elles ne savent pas encore à quoi cette croissance ressemblera.",
+      "speaking": {
+        "title": "Conférences d'Autonomisation",
+        "text": "Des sessions de motivation axées sur le développement de soi, la confiance et la transformation de l'état d'esprit."
+      },
+      "coaching": {
+        "title": "Coaching Individuel",
+        "text": "Un espace sûr et puissant où vous êtes vue, entendue et mise au défi de renforcer votre confiance de l'intérieur."
+      },
+      "toolkits": {
+        "title": "Boîtes à Outils de Croissance",
+        "text": "Des ressources structurées et guidées, créées manuellement pour accompagner votre transformation à votre rythme."
+      }
+    },
+    "details": {
+      "who": {
+        "title": "À qui s'adresse le coaching ?",
+        "intro": "Le coaching est pour la femme qui :",
+        "items": [
+          "Se sent bloquée mais sait qu'elle est faite pour plus",
+          "Est fatiguée de s'effacer ou de se limiter",
+          "Aspire à la clarté, à la direction et à la structure",
+          "Est prête à arrêter de survivre et à commencer à évoluer"
+        ]
+      },
+      "which": {
+        "title": "Quel service est fait pour moi ?",
+        "inspiration": "Besoin d'inspiration et d'élan ?",
+        "inspirationBtn": "→ Choisir une conférence",
+        "support": "Besoin d'un soutien personnalisé ?",
+        "supportBtn": "→ Choisir le coaching individuel",
+        "pace": "Vous voulez avancer à votre propre rythme ?",
+        "paceBtn": "→ Choisir une boîte à outils"
+      }
+    },
+    "questions": [
+      {
+        "q": "1. Qu'est-ce que le développement personnel ?",
+        "a": "Le développement personnel est le processus intentionnel d'amélioration des compétences, des connaissances ou des capacités pour atteindre des objectifs personnels et professionnels. Il s'agit d'apprendre et de mettre en pratique de nouvelles compétences."
+      },
+      {
+        "q": "2. Qu'est-ce que la croissance personnelle ?",
+        "a": "La croissance personnelle est le processus plus profond et continu de devenir une meilleure version de soi-même sur le plan émotionnel, mental et spirituel. Elle porte sur la transformation intérieure et l'évolution du caractère."
+      },
+      {
+        "q": "3. Qu'est-ce que le soin de soi ?",
+        "a": "Le soin de soi est la pratique consistant à s'occuper activement de sa santé physique, mentale et émotionnelle. C'est recharger ses batteries, maintenir son équilibre et prévenir l'épuisement."
+      }
+    ],
+    "table": {
+      "headers": ["Catégorie", "Objectif", "Exemples"],
+      "rows": [
+        ["Développement Personnel", "Compétences, connaissances, productivité", "Apprendre une langue, parler en public, cuisine, leadership, art"],
+        ["Croissance Personnelle", "État d'esprit, résilience, caractère", "Journalisation, gratitude, patience, empathie, confiance"],
+        ["Soin de Soi", "Bien-être physique, mental et émotionnel", "Sommeil, exercice, loisirs, relaxation, limites saines"]
+      ]
+    },
+    "deepDive": {
+      "development": {
+        "title": "1. Développement Personnel",
+        "items": [
+          "Apprendre une nouvelle langue",
+          "Apprendre le codage pour créer un site web",
+          "Améliorer la prise de parole en public",
+          "Lire des livres de développement personnel",
+          "Suivre des cours en ligne (Art, Design)",
+          "Gérer son budget",
+          "Pratiquer un instrument de musique",
+          "Apprendre le design graphique ou le montage vidéo",
+          "Formation en leadership ou travail d'équipe",
+          "Apprendre les premiers secours"
+        ]
+      },
+      "growth": {
+        "title": "2. Croissance Personnelle",
+        "items": [
+          "Écrire quotidiennement ses pensées",
+          "Pratiquer la gratitude chaque matin",
+          "Réfléchir à ses erreurs pour apprendre",
+          "Méditer pour la conscience de soi",
+          "Défier ses pensées négatives",
+          "Pratiquer l'empathie et l'écoute active",
+          "S'engager dans le bénévolat",
+          "Créer un Tableau de Vision",
+          "Renforcer sa résilience face aux difficultés",
+          "Explorer des débouchés créatifs pour s'exprimer"
+        ]
+      },
+      "selfCare": {
+        "title": "3. Soin de Soi",
+        "items": [
+          "Dormir 7 à 9 heures par nuit",
+          "Manger des repas équilibrés et nutritifs",
+          "Boire assez d'eau quotidiennement",
+          "Exercice régulier (Yoga, marche)",
+          "Marcher dans la nature",
+          "Passer du temps avec ses proches",
+          "Limiter les réseaux sociaux et le temps d'écran",
+          "Désencombrer son espace de travail",
+          "Fixer des limites (apprendre à dire 'non')",
+          "Créer une routine relaxante avant le coucher"
+        ]
+      }
+    },
+    "approach": {
+      "title": "L'approche Lumina Rise",
+      "quote": "\"Je coache à partir de mon expérience vécue. Depuis plus de 12 ans, j'ai fait le travail moi-même, m'investissant profondément dans ma propre guérison et ma croissance.\"",
+      "text": "La vraie croissance demande de la constance. Je propose des options d'engagement car le changement ne se produit pas en une seule conversation, il se produit par l'engagement. Mon rôle n'est pas de vous dire qui devenir ; c'est de vous aider à découvrir la force qui a toujours été là."
+    }
+  },
+  "Services": {
+    "Coaching": {
+      "title": "Coaching Individuel : Votre chemin vers l'épanouissement",
+      "description": "Un espace sûr et puissant où vous êtes vue, entendue et mise au défi de renforcer votre confiance de l'intérieur.",
+      "heroBtn": "Réservez votre séance découverte",
+      "intro": {
+        "title": "Pourquoi le coaching individuel ?",
+        "p1": "Dans un monde qui nous demande souvent de nous effacer, le coaching individuel est votre permission de prendre de la place. C’est un partenariat dédié, conçu pour combler le fossé entre là où vous êtes et là où vous voulez être.",
+        "p2": "Mon approche combine la science de la psychologie positive avec une guidance intuitive et des stratégies pratiques. Nous ne nous contentons pas de parler de changement ; nous créons les conditions pour qu'il se produise."
+      },
+      "benefits": {
+        "title": "Ce que vous allez gagner",
+        "items": [
+          {
+            "title": "Clarté et direction",
+            "text": "Découvrez ce qui compte vraiment pour vous et créez une feuille de route pour y arriver."
+          },
+          {
+            "title": "Confiance inébranlable",
+            "text": "Apprenez à vous faire confiance et à avoir confiance en votre capacité à naviguer dans les défis de la vie."
+          },
+          {
+            "title": "Résilience émotionnelle",
+            "text": "Développez des outils pour gérer le stress, les revers et le doute de soi avec grâce."
+          },
+          {
+            "title": "Action alignée",
+            "text": "Passez de la sur-réflexion à l'action intentionnelle avec soutien et responsabilité."
+          }
+        ]
+      },
+      "packages": {
+        "title": "Forfaits de coaching",
+        "discovery": {
+          "title": "Séance découverte",
+          "price": "Gratuit",
+          "features": [
+            "Appel vidéo de 30 minutes",
+            "Clarté sur vos défis actuels",
+            "Découvrez mon style de coaching",
+            "Déterminer si nous sommes un bon match"
+          ]
+        },
+        "transformation": {
+          "title": "Parcours de transformation",
+          "price": "Sur mesure",
+          "features": [
+            "8 séances bi-mensuelles",
+            "Plongée profonde dans l'état d'esprit et les habitudes",
+            "Plans d'action personnalisés",
+            "Soutien par courriel entre les séances"
+          ]
+        },
+        "growth": {
+          "title": "Croissance continue",
+          "price": "Sur mesure",
+          "features": [
+            "Séances d'entretien mensuelles",
+            "Responsabilité continue",
+            "Définition d'objectifs avancés",
+            "Accès prioritaire aux nouvelles ressources"
+          ]
+        }
+      }
+    },
+    "Webinars": {
+      "title": "Conférences & Webinaires d'inspiration",
+      "description": "Des sessions engageantes et autonomisantes conçues pour susciter la transformation et fournir des outils pratiques pour la croissance personnelle.",
+      "heroBtn": "Demande pour votre événement",
+      "intro": {
+        "title": "Inspirer et autonomiser",
+        "p1": "Que ce soit pour un événement d'entreprise, un rassemblement communautaire ou un sommet en ligne, mes conférences sont conçues pour résonner profondément et inspirer l'action. Je partage les enseignements de la science du bien-être et de mon propre parcours de croissance.",
+        "p2": "Les sujets incluent le renforcement de la résilience, le pouvoir de l'état d'esprit, la psychologie positive au quotidien et la découverte de votre moi lumineux."
+      }
+    },
+    "Workshops": {
+      "title": "Ateliers de Groupe",
+      "description": "Des expériences de groupe interactives et solidaires axées sur des aspects spécifiques du bien-être et du développement personnel.",
+      "status": "*Bientôt Disponible",
+      "heroBtn": "Rejoindre la liste d'attente",
+      "intro": {
+        "title": "Grandir ensemble",
+        "p1": "Il y a un pouvoir unique dans la croissance partagée. Nos ateliers de groupe offrent un espace sûr pour explorer, apprendre et se connecter avec d'autres femmes sur un chemin similaire.",
+        "p2": "Les prochains ateliers porteront sur l'alphabétisation émotionnelle, l'établissement de limites et la mise en place d'une pratique de soins personnels durable."
+      }
+    }
+  },
+  "Toolkits": {
+    "SelfCare": {
+      "title": "La Boîte à Outils de Soins Personnels",
+      "description": "Nourrissez votre âme et rechargez votre esprit avec des pratiques quotidiennes, des guides de pleine conscience, des techniques de relaxation et des routines d'auto-soin.",
+      "heroBtn": "Explorer les outils",
+      "intro": {
+        "title": "À propos des soins personnels",
+        "subtitle": "Comprendre l'importance de se donner la priorité et de veiller à son bien-être.",
+        "p1": "Le soin personnel est la pratique consistant à prendre des mesures délibérées pour préserver ou améliorer votre santé physique, mentale et émotionnelle. Il s'agit d'identifier vos propres besoins et de prendre des mesures pour y répondre.",
+        "p2": "Chez Lumina Rise, nous pensons que prendre soin de soi n'est pas égoïste, c'est nécessaire. Lorsque vous donnez la priorité à votre bien-être, vous êtes mieux équipée pour vous investir pleinement dans tous les domaines de votre vie."
+      },
+      "why": {
+        "title": "Pourquoi le soin personnel est important",
+        "p1": "Dans le monde trépidant d'aujourd'hui, les femmes se retrouvent souvent au bas de leur propre liste de priorités. Les recherches montrent que les pratiques régulières de soins personnels mènent à :",
+        "items": [
+          "Une réduction du stress et de l'anxiété",
+          "Une amélioration de l'humeur et de la régulation émotionnelle",
+          "Une fonction immunitaire renforcée",
+          "De meilleures relations",
+          "Une productivité et une créativité accrues",
+          "Une plus grande résilience face aux moments difficiles"
+        ]
+      },
+      "tools": {
+        "title": "Contenu de la boîte (77 pages)",
+        "subtitle": "Des ressources pratiques pour vous aider à établir une pratique durable de soins personnels.",
+        "items": [
+          {
+            "title": "Rituels du matin",
+            "text": "Commencez votre journée avec intention grâce à des pratiques matinales guidées."
+          },
+          {
+            "title": "Pleine conscience",
+            "text": "Apprenez à être pleinement présente dans l'instant présent grâce à des exercices guidés."
+          },
+          {
+            "title": "Détente du soir",
+            "text": "Découvrez des routines apaisantes pour un sommeil réparateur."
+          },
+          {
+            "title": "Auto-compassion",
+            "text": "Transformez votre dialogue intérieur avec des pratiques favorisant la bienveillance."
+          },
+          {
+            "title": "Évaluation",
+            "text": "Évaluez vos pratiques actuelles à travers différentes dimensions du bien-être."
+          },
+          {
+            "title": "Limites saines",
+            "text": "Stratégies pratiques pour établir des limites saines afin de protéger votre énergie."
+          }
+        ]
+      },
+      "buy": {
+        "btn": "Acheter la Boîte à Outils – USD 28",
+        "info": "Paiement sécurisé via Stripe. Cartes de crédit, Apple Pay et Google Pay acceptés. Vous recevrez la boîte à outils par courriel dans les 24 heures suivant le paiement."
+      }
+    },
+    "PersonalGrowth": {
+      "title": "Boîte à Outils de Croissance Personnelle",
+      "description": "Des stratégies pour évoluer et s'épanouir grâce à des exercices de définition d'objectifs et des invites de journalisation.",
+      "heroBtn": "Explorer les outils",
+      "buyBtn": "Acheter la Boîte à Outils – USD 28"
+    },
+    "Empowerment": {
+      "title": "Essentiels de l'Autonomisation",
+      "description": "Des outils pour construire une confiance inébranlable avec des activités de renforcement de la confiance et des modules de leadership.",
+      "heroBtn": "Rejoindre la liste d'attente",
+      "status": "*Bientôt disponible"
+    }
+  },
+  "Privacy": {
+    "title": "Politique de confidentialité",
+    "p1": "Chez Lumina Rise, nous nous engageons à protéger votre vie privée. Cette politique décrit comment nous collectons, utilisons et protégeons vos informations personnelles.",
+    "p2": "Nous collectons les informations que vous nous fournissez directement (nom, courriel, message) lorsque vous nous contactez ou achetez une boîte à outils. Ces informations sont utilisées uniquement pour fournir nos services et communiquer avec vous.",
+    "p3": "Nous ne partageons pas vos informations avec des tiers, sauf si cela est nécessaire pour traiter les paiements via Stripe ou si la loi l'exige."
+  },
+  "Terms": {
+    "title": "Conditions d'utilisation",
+    "p1": "En utilisant notre site web et nos services, vous acceptez ces conditions. Tout le contenu fourni est à titre informatif et éducatif uniquement.",
+    "p2": "Lumina Rise fournit du coaching et des ressources basés sur la psychologie positive. Ces services ne remplacent pas une thérapie professionnelle ou un avis médical.",
+    "p3": "Tous les produits numériques (boîtes à outils) sont non remboursables une fois livrés."
+  },
+  "Header": {
+    "home": "Accueil",
+    "about": "À propos",
+    "founder": "À propos de la fondatrice",
+    "toolbox": "Boîte à outils",
+    "services": "Services",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "Footer": {
+    "title": "Lumina Rise Self-Growth",
+    "description": "Autonomiser les femmes à travers des outils de bien-être et de croissance personnelle, des ressources et du soutien.",
+    "quickLinks": "Liens Rapides",
+    "home": "Accueil",
+    "about": "À propos",
+    "toolbox": "Boîte à outils",
+    "services": "Services",
+    "newsletter": "Infolettre",
+    "emailPlaceholder": "Votre Courriel",
+    "subscribe": "S'abonner",
+    "copyright": "Tous droits réservés."
+  }
+}

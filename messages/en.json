@@ -1,0 +1,471 @@
+{
+  "Index": {
+    "title": "Empowering Women to Rise and Shine",
+    "description": "Discover the tools and guidance you need to nurture your mental health, embrace personal growth, and transform your life.",
+    "startJourney": "Start Your Journey",
+    "credibility": {
+      "yale": "Yale Certificate",
+      "wellBeing": "Science of Well-Being",
+      "tenYears": "10+ Years",
+      "expertise": "Self-Development Expertise",
+      "evidence": "Evidence-Based Approach",
+      "coach": "Positive Psychology Coach"
+    },
+    "about": {
+      "title": "About Lumina Rise",
+      "subtitle": "Dedicated to helping women believe in themselves and unlock their full potential.",
+      "heading": "Your Journey to Self-Discovery",
+      "p1": "At Lumina Rise Self-Growth, we understand that every woman's journey is unique. Our mission is to provide you with the tools, resources, and support you need to overcome challenges, build resilience, and create a life filled with purpose and joy.",
+      "p2": "Founded on the belief that self-care and self-growth are interconnected paths to empowerment, we offer a holistic approach to personal development that nurtures your mind, body, and spirit.",
+      "p3": "Whether you're seeking to improve your mental health, boost your confidence, or discover your true purpose, Lumina Rise is here to guide you every step of the way.",
+      "founderBtn": "About the Founder"
+    },
+    "qualification": {
+      "forYou": "This is for you if:",
+      "notForYou": "This is not for you if:",
+      "items": {
+        "work": "You are willing to do the work and put in consistent effort",
+        "goals": "You're committed to following through on your goals",
+        "time": "You understand that real results take time and dedication",
+        "invest": "You're ready to invest in yourself and your growth",
+        "change": "You want genuine, sustainable change in your life",
+        "learning": "You're open to learning new strategies and implementing them",
+        "comfort": "You're prepared to step outside your comfort zone",
+        "quality": "You value quality over quick fixes",
+        "magic": "You're looking for a magic pill or overnight success",
+        "effort": "You expect results without putting in any effort",
+        "investTime": "You're not willing to invest time in the process",
+        "others": "You want someone else to do all the work for you",
+        "promises": "You're seeking unrealistic promises or guarantees",
+        "ready": "You're not ready to make necessary changes",
+        "blame": "You prefer to blame others rather than take responsibility",
+        "cheap": "You're looking for the cheapest option regardless of value"
+      }
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Tailored programs and services to support your self-growth journey.",
+      "coaching": {
+        "title": "One-on-One Coaching",
+        "description": "Personalized coaching sessions with a certified positive psychology coach to address your unique challenges and goals."
+      },
+      "workshops": {
+        "title": "Group Workshops *Coming Soon",
+        "description": "Interactive workshops focused on specific aspects of self-care and personal growth in a supportive community environment."
+      },
+      "speaking": {
+        "title": "Inspirational Speaking Engagements",
+        "description": "Inspirational Speaking sessions available both in-person and online, covering positive psychology topics and practical self-growth strategies."
+      },
+      "learnMore": "Learn More",
+      "comingSoon": "Coming Soon"
+    },
+    "consultation": {
+      "title": "Book your one-on-one consultation",
+      "subtitle": "Ready to take the next step in your self-development journey? I offer personalized consultations to help you unlock your potential and create meaningful change in your life.",
+      "p1": "Whether you're looking to build empowering habits, gain clarity on your goals, or explore the science of well-being, I'm here to support you.",
+      "btn": "Free Initial Discovery Session"
+    },
+    "toolbox": {
+      "title": "The Toolbox Concept",
+      "subtitle": "Your life is your greatest creation, and every creator needs the right tools. Just as a builder wouldn't construct a home without blueprints and proper equipment, you shouldn't navigate life's complexities without resources designed for your success.",
+      "selfCare": {
+        "title": "The Self-Care Toolkit",
+        "pages": "(77 pages - FR or EN)",
+        "description": "Nurture your soul and recharge your spirit with daily practices, mindfulness guides, and self-nurturing routines."
+      },
+      "personalGrowth": {
+        "title": "The Personal Growth Toolkit",
+        "pages": "(78 pages - EN only for now)",
+        "description": "Strategies to evolve and thrive through goal-setting exercises and reflective journaling prompts."
+      },
+      "empowerment": {
+        "title": "Empowerment Essentials",
+        "status": "- Coming Soon",
+        "description": "Tools to build unshakeable confidence with confidence-boosting activities and leadership modules."
+      },
+      "btn": "Explore Toolkit"
+    },
+    "faq": {
+      "title": "Q&A: Understanding Your Journey",
+      "btn": "View Full Q&A Guide"
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "subtitle": "Ready to start your self-growth journey? Reach out today to see how we can support your transformation.",
+      "info": {
+        "title": "Contact Information",
+        "description": "I'd love to hear from you. Reach out with any questions about coaching, workshops, or the toolkits.",
+        "email": "Luminariseselfgrowth@gmail.com",
+        "location": "Virtual services available worldwide"
+      },
+      "form": {
+        "title": "Send a Message",
+        "name": "Your Name",
+        "email": "Your Email",
+        "interest": "I'm interested in...",
+        "interests": {
+          "coaching": "One-on-One Coaching",
+          "workshop": "Group Workshops",
+          "speaking": "Speaking Engagement",
+          "toolkit": "Toolkit Purchase",
+          "other": "General Inquiry"
+        },
+        "message": "Your Message",
+        "submit": "Send Message"
+      }
+    }
+  },
+  "AboutMe": {
+    "title": "My Story",
+    "description": "Empowering women to discover their inner strength and transform their lives, through the experience and journey I've walked myself.",
+    "heroBtn": "Learn More",
+    "intro": {
+      "title": "The Journey That Led to Lumina Rise Self-Growth",
+      "p1": "Through my personal and professional experiences, I've come to understand that growth is not a luxury but rather a responsibility to oneself. Lumina Rise has become the space I wish I had during certain moments of my life."
+    },
+    "passion": {
+      "title": "Passion for Self-Development",
+      "p1": "Hi, I’m Gina-Line, the heart and soul behind Lumina Rise. After over a decade of diving deep into my own self-development journey, I felt a powerful pull to create a space where women could feel truly seen, supported, and empowered to grow into the most radiant version of themselves. I’ve walked through tough seasons, rediscovered my inner strength, and learned firsthand the life-changing power of resilience, mindset, and self-care. That’s why I’m so passionate about helping others do the same.",
+      "p2": "With a background in Positive Psychology Coaching, a Yale certificate in Well-being and an unshakable love for personal growth, I now guide women toward lives filled with purpose, confidence, and joy. Lumina Rise isn’t just a brand, it’s a movement. One rooted in authenticity, growth, and deep compassion. Whether you're here to heal, evolve, or reconnect with your true self, I’m honored to walk this path beside you.",
+      "p3": "In a world that’s always rushing, Lumina Rise offers a different pace, one that blends self-care with self-growth, and inner work with real-life action. I’m here to equip you with tools, insights, and soulful support that help you flourish, not just function.",
+      "p4": "What truly lights up my soul is witnessing that spark, the moment a woman realizes her own power and starts showing up fully for her life. That’s the kind of magic I live for.",
+      "p5": "I’m endlessly curious about how mindset, emotions, and intentional action create lasting transformation. I’m always exploring new ideas, old wisdom, and evidence-based practices that help women thrive from the inside out. That’s why I’m so drawn to positive psychology, it combines the science of well-being with the heart of meaningful living.",
+      "p6": "At my core, I’m driven by a simple but powerful passion: helping women reclaim their joy, confidence, and sense of possibility. No matter what stage of the journey you’re on, know this... you’re not alone. And your rise? It starts right here."
+    },
+    "mission": {
+      "title": "The heart of Lumina Rise",
+      "subtitle": "Transform your potential into power at every step of your journey",
+      "missionTitle": "Mission",
+      "missionText": "To provide women with innovative, actionable, and inspiring tools that support mental health, encourage personal growth, and foster a community of empowered, confident women.",
+      "visionTitle": "Vision",
+      "visionText": "To become a leading resource in female self-development, transforming everyday self-care practices into a powerful journey of personal evolution.",
+      "valuesTitle": "Core Values",
+      "values": [
+        "Authenticity - Encouraging genuine self-expression and growth",
+        "Empowerment - Providing tools that build independence and confidence while enabling women to realize their full potential",
+        "Compassion - Approaching all interactions with kindness and understanding",
+        "Growth Mindset - Embracing challenges as opportunities for development"
+      ],
+      "intersectionTitle": "Where Self-Care Meets Self-Growth",
+      "intersectionP1": "This powerful statement reflects our holistic approach to women's empowerment. We recognize that self-care is not just about pampering yourself or taking a break from life's demands. It's about creating a strong foundation of physical, emotional, and mental well-being that enables you to pursue your goals and dreams with vigor and resilience.",
+      "intersectionP2": "Similarly, self-growth isn't just about pushing yourself to achieve more. It's about expanding your horizons, challenging your limitations, and evolving into the best version of yourself – all while maintaining a compassionate and nurturing attitude towards your own journey.",
+      "intersectionP3": "Our slogan embodies the idea that self-care and self-growth are not mutually exclusive, but rather complementary forces. When you learn to care for yourself deeply and grow intentionally, you create a positive feedback loop that propels you towards your highest potential. This is the essence of what I offer at Lumina Rise... a journey where every step towards growth is also an act of self-love and care.",
+      "intersectionP4": "This journey is about creating a space where you are not just surviving but thriving. When you care for yourself, you build resilience, emotional intelligence, and physical well-being, all of which are essential for sustainable growth.",
+      "intersectionP5": "This philosophy promotes the idea that growth doesn't have to be painful or overwhelming. It can be uplifting, healing, and deeply personal. When self-care is woven into your growth journey, you'll find that both become easier and more fulfilling, leading to a more meaningful life."
+    },
+    "toolbox": {
+      "title": "The Toolbox Concept",
+      "subtitle": "Different tools for different jobs",
+      "text": "Just as a craftsperson selects the right tools for each project, creating a fulfilling and empowered life begins with building your own personalized toolbox. Because every woman’s path is different, your toolbox is customized to meet your specific challenges, amplify your strengths, and nurture your deepest aspirations. With the right tools in hand, you’re equipped to rise, rebuild, and thrive; no matter what comes your way."
+    }
+  },
+  "FAQ": {
+    "title": "FAQ: Understanding Your Journey",
+    "description": "Clear answers to help you navigate between personal development, growth, and self-care.",
+    "heroBtn": "Start Your Journey",
+    "roadmap": {
+      "title": "The Lumina Rise Roadmap",
+      "subtitle": "Transformation spaces for women ready to flourish, even if they don't yet know what that growth will look like.",
+      "speaking": {
+        "title": "Empowerment Speaking",
+        "text": "Motivational sessions focused on self-development, confidence, and mindset transformation."
+      },
+      "coaching": {
+        "title": "One-on-One Coaching",
+        "text": "A safe and powerful space where you are seen, heard, and challenged to build your confidence from the inside out."
+      },
+      "toolkits": {
+        "title": "Growth Toolkits",
+        "text": "Structured and guided resources, manually created to accompany your transformation at your own pace."
+      }
+    },
+    "details": {
+      "who": {
+        "title": "Who is Coaching for?",
+        "intro": "Coaching is for the woman who:",
+        "items": [
+          "Feels stuck but knows she is made for more",
+          "Is tired of fading into the background or limiting herself",
+          "Longs for clarity, direction, and structure",
+          "Is ready to stop surviving and start evolving"
+        ]
+      },
+      "which": {
+        "title": "Which service is right for me?",
+        "inspiration": "Need inspiration and momentum?",
+        "inspirationBtn": "→ Choose a speaking engagement",
+        "support": "Need personalized support?",
+        "supportBtn": "→ Choose one-on-one coaching",
+        "pace": "Want to move at your own pace?",
+        "paceBtn": "→ Choose a growth toolkit"
+      }
+    },
+    "questions": [
+      {
+        "q": "1. What is personal development?",
+        "a": "Personal development is the intentional process of improving skills, knowledge, or abilities to achieve personal and professional goals. It's about learning, practicing, and applying new skills that make you more capable and confident."
+      },
+      {
+        "q": "2. What is personal growth?",
+        "a": "Personal growth is the deeper, ongoing process of becoming a better version of yourself on an emotional, mental, and spiritual level. Unlike personal development which focuses on skills, personal growth is about inner transformation, mindset, and character development."
+      },
+      {
+        "q": "3. What is self-care?",
+        "a": "Self-care is the practice of actively taking care of your physical, mental, and emotional health. It's about replenishing your energy, maintaining balance, and preventing burnout. Self-care is essential for supporting both personal development and growth."
+      }
+    ],
+    "table": {
+      "headers": ["Category", "Goal", "Examples"],
+      "rows": [
+        ["Personal Development", "Skills, knowledge, productivity", "Learning to code, public speaking, cooking, leadership, art, finance"],
+        ["Personal Growth", "Mindset, emotional resilience, character", "Journaling, gratitude, patience, empathy, confidence, reflection"],
+        ["Self-Care", "Physical, mental, and emotional well-being", "Sleep, exercise, hobbies, relaxation, boundaries, nature"]
+      ]
+    },
+    "deepDive": {
+      "development": {
+        "title": "1. Personal Development",
+        "items": [
+          "Learning a new language",
+          "Practicing coding to create a website",
+          "Improving public speaking",
+          "Reading personal development books",
+          "Taking online courses (Art, Design)",
+          "Managing money and budgeting",
+          "Practicing a musical instrument",
+          "Learning graphic design or video editing",
+          "Leadership or teamwork training",
+          "Learning first aid"
+        ]
+      },
+      "growth": {
+        "title": "2. Personal Growth",
+        "items": [
+          "Journaling daily thoughts",
+          "Practicing gratitude every morning",
+          "Reflecting on mistakes to learn",
+          "Meditating for self-awareness",
+          "Challenging negative thoughts",
+          "Practicing empathy and active listening",
+          "Engaging in volunteering",
+          "Creating a Vision Board",
+          "Building resilience through difficult tasks",
+          "Exploring creative outlets for self-expression"
+        ]
+      },
+      "selfCare": {
+        "title": "3. Self-Care",
+        "items": [
+          "Sleeping 7-9 hours per night",
+          "Eating balanced and nutritious meals",
+          "Drinking enough water daily",
+          "Regular exercise (Yoga, walking)",
+          "Walking in nature",
+          "Spending time with loved ones",
+          "Limiting social media and screen time",
+          "Decluttering your workspace",
+          "Setting boundaries (Saying 'no')",
+          "Creating a relaxing bedtime routine"
+        ]
+      }
+    },
+    "approach": {
+      "title": "The Lumina Rise Approach",
+      "quote": "\"I coach from my lived experience. For over 12 years, I have done the work myself, investing deeply in my own healing and growth.\"",
+      "text": "Real growth takes consistency. I offer commitment options because change doesn't happen in a single conversation—it happens through engagement. My role isn't to tell you who to become; it's to help you discover the strength that has always been there."
+    }
+  },
+  "Services": {
+    "Coaching": {
+      "title": "One-on-One Coaching: Your Path to Flourishing",
+      "description": "A safe and powerful space where you are seen, heard, and challenged to build your confidence from the inside out.",
+      "heroBtn": "Book Your Discovery Session",
+      "intro": {
+        "title": "Why One-on-One Coaching?",
+        "p1": "In a world that often demands we play small, one-on-one coaching is your permission to take up space. It’s a dedicated partnership designed to bridge the gap between where you are and where you want to be.",
+        "p2": "My approach combines the science of Positive Psychology with intuitive guidance and practical strategies. We don't just talk about change; we create the conditions for it to happen."
+      },
+      "benefits": {
+        "title": "What You'll Gain",
+        "items": [
+          {
+            "title": "Clarity & Direction",
+            "text": "Uncover what truly matters to you and create a roadmap to get there."
+          },
+          {
+            "title": "Unshakeable Confidence",
+            "text": "Learn to trust yourself and your ability to navigate life's challenges."
+          },
+          {
+            "title": "Emotional Resilience",
+            "text": "Develop tools to handle stress, setbacks, and self-doubt with grace."
+          },
+          {
+            "title": "Aligned Action",
+            "text": "Move from overthinking to intentional doing with support and accountability."
+          }
+        ]
+      },
+      "packages": {
+        "title": "Coaching Packages",
+        "discovery": {
+          "title": "Discovery Session",
+          "price": "Free",
+          "features": [
+            "30-minute video call",
+            "Clarity on your current challenges",
+            "Experience my coaching style",
+            "Determine if we're a good fit"
+          ]
+        },
+        "transformation": {
+          "title": "Transformation Journey",
+          "price": "Custom",
+          "features": [
+            "8 bi-weekly sessions",
+            "Deep dive into mindset & habits",
+            "Personalized action plans",
+            "Email support between sessions"
+          ]
+        },
+        "growth": {
+          "title": "Continuous Growth",
+          "price": "Custom",
+          "features": [
+            "Monthly maintenance sessions",
+            "Ongoing accountability",
+            "Advanced goal setting",
+            "Priority access to new resources"
+          ]
+        }
+      }
+    },
+    "Webinars": {
+      "title": "Inspirational Speaking & Webinars",
+      "description": "Engaging and empowering sessions designed to spark transformation and provide practical tools for personal growth.",
+      "heroBtn": "Inquire for Your Event",
+      "intro": {
+        "title": "Inspire and Empower",
+        "p1": "Whether for a corporate event, a community gathering, or an online summit, my speaking sessions are crafted to resonate deeply and inspire action. I share insights from the science of well-being and my own journey of growth.",
+        "p2": "Topics include building resilience, the power of mindset, positive psychology in daily life, and finding your luminous self."
+      }
+    },
+    "Workshops": {
+      "title": "Group Workshops",
+      "description": "Interactive and supportive group experiences focusing on specific aspects of well-being and personal development.",
+      "status": "*Coming Soon",
+      "heroBtn": "Join the Waitlist",
+      "intro": {
+        "title": "Grow Together",
+        "p1": "There is a unique power in shared growth. Our group workshops provide a safe space to explore, learn, and connect with other women on a similar path.",
+        "p2": "Upcoming workshops will cover emotional literacy, boundary setting, and building a sustainable self-care practice."
+      }
+    }
+  },
+  "Toolkits": {
+    "SelfCare": {
+      "title": "The Self-Care Toolkit",
+      "description": "Nurture your soul and recharge your spirit with daily practices, mindfulness guides, relaxation techniques, and self-care routines.",
+      "heroBtn": "Explore the Tools",
+      "intro": {
+        "title": "About Self-Care",
+        "subtitle": "Understanding the importance of prioritizing yourself and your well-being.",
+        "p1": "Self-care is the practice of taking deliberate action to preserve or improve your physical, mental, and emotional health. It's about identifying your own needs and taking steps to meet them; it's a vital part of stress management and overall well-being.",
+        "p2": "At Lumina Rise, we believe that self-care is not selfish—it’s necessary. When you prioritize your well-being, you’re better equipped to show up fully in all areas of your life."
+      },
+      "why": {
+        "title": "Why Self-Care Matters",
+        "p1": "In today's fast-paced world, women often find themselves at the bottom of their own priority list. Research consistently shows that regular self-care practices lead to:",
+        "items": [
+          "Reduced stress and anxiety",
+          "Improved mood and emotional regulation",
+          "Enhanced immune function",
+          "Better relationships",
+          "Increased productivity and creativity",
+          "Greater resilience during difficult times"
+        ]
+      },
+      "tools": {
+        "title": "Toolkit Contents (77 pages)",
+        "subtitle": "Practical resources to help you establish a sustainable self-care practice.",
+        "items": [
+          {
+            "title": "Morning Rituals",
+            "text": "Start your day with intention through guided morning practices."
+          },
+          {
+            "title": "Mindfulness",
+            "text": "Learn to be fully present in the moment with guided exercises."
+          },
+          {
+            "title": "Evening Wind-Down",
+            "text": "Discover calming routines for a restful night's sleep."
+          },
+          {
+            "title": "Self-Compassion",
+            "text": "Transform your inner dialogue with kindness-focused practices."
+          },
+          {
+            "title": "Assessment",
+            "text": "Evaluate your current practices across different dimensions of well-being."
+          },
+          {
+            "title": "Healthy Boundaries",
+            "text": "Strategies to set healthy limits and protect your energy."
+          }
+        ]
+      },
+      "buy": {
+        "btn": "Buy the Toolkit – USD 28",
+        "info": "Secure payment via Stripe. Credit cards, Apple Pay, and Google Pay accepted. You will receive the toolkit via email within 24 hours of payment."
+      }
+    },
+    "PersonalGrowth": {
+      "title": "The Personal Growth Toolkit",
+      "description": "Strategies to evolve and thrive through goal-setting exercises and reflective journaling prompts.",
+      "heroBtn": "Explore the Tools",
+      "buyBtn": "Buy the Toolkit – USD 28"
+    },
+    "Empowerment": {
+      "title": "Empowerment Essentials",
+      "description": "Tools to build unshakeable confidence with confidence-boosting activities and leadership modules.",
+      "heroBtn": "Join the Waitlist",
+      "status": "*Coming Soon"
+    }
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "p1": "At Lumina Rise Self-Growth, we are committed to protecting your privacy. This policy outlines how we collect, use, and safeguard your personal information.",
+    "p2": "We collect information you provide directly to us (name, email, message) when you contact us or purchase a toolkit. This information is used solely to provide our services and communicate with you.",
+    "p3": "We do not share your information with third parties except as required to process payments via Stripe or as required by law."
+  },
+  "Terms": {
+    "title": "Terms of Service",
+    "p1": "By using our website and services, you agree to these terms. All content provided is for informational and educational purposes only.",
+    "p2": "Lumina Rise provides coaching and resources based on Positive Psychology. These services are not a substitute for professional mental health therapy or medical advice.",
+    "p3": "All digital products (toolkits) are non-refundable once delivered."
+  },
+  "Header": {
+    "home": "Home",
+    "about": "About",
+    "founder": "About the founder",
+    "toolbox": "Toolbox",
+    "services": "Services",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "Footer": {
+    "title": "Lumina Rise Self-Growth",
+    "description": "Empowering women through self-care and personal growth tools, resources, and support.",
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "about": "About",
+    "toolbox": "Toolbox",
+    "services": "Services",
+    "newsletter": "Newsletter",
+    "emailPlaceholder": "Your Email",
+    "subscribe": "Subscribe",
+    "copyright": "All Rights Reserved."
+  }
+}
