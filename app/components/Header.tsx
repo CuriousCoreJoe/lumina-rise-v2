@@ -26,6 +26,7 @@ export default function Header({ locale }: { locale: string }) {
             <li><Link href="/about" onClick={() => setMenuOpen(false)}>{t('about')}</Link></li>
             <li><Link href="/#toolbox" onClick={() => setMenuOpen(false)}>{t('toolbox')}</Link></li>
             <li><Link href="/#services" onClick={() => setMenuOpen(false)}>{t('services')}</Link></li>
+            <li><Link href="/faq" onClick={() => setMenuOpen(false)}>{t('faq')}</Link></li>
             <li><Link href="/#contact" onClick={() => setMenuOpen(false)}>{t('contact')}</Link></li>
             <li className="language-selector">
               <Link
@@ -51,7 +52,7 @@ export default function Header({ locale }: { locale: string }) {
                 locale={locale === 'en' ? 'fr' : 'en'}
                 className="lang-btn"
               >
-                <i className="fas fa-globe"></i> {locale === 'en' ? 'FR' : 'EN'}
+                <i className="fas fa-globe"></i> {locale === 'en' ? 'EN' : 'FR'}
               </Link>
             </div>
           </div>

@@ -90,6 +90,13 @@
       "title": "Q&A: Understanding Your Journey",
       "btn": "View Full Q&A Guide"
     },
+    "newsletter": {
+      "title": "Join Our Newsletter",
+      "description": "Subscribe to receive self-care tips, personal growth advice, and exclusive resources.",
+      "gift": "A special gift will be offered upon signup!",
+      "placeholder": "Enter Your Email Address",
+      "btn": "Subscribe to Get Your Free Tracker"
+    },
     "contact": {
       "title": "Get in Touch",
       "subtitle": "Ready to start your self-growth journey? Reach out today to see how we can support your transformation.",
@@ -342,13 +349,80 @@
       }
     },
     "Webinars": {
-      "title": "Inspirational Speaking & Webinars",
-      "description": "Engaging and empowering sessions designed to spark transformation and provide practical tools for personal growth.",
-      "heroBtn": "Inquire for Your Event",
+      "title": "Inspirational Speaking",
+      "description": "Empowering audiences through positive psychology and practical self-growth strategies, available in-person and online.",
+      "heroBtn": "Book an Engagement",
       "intro": {
-        "title": "Inspire and Empower",
-        "p1": "Whether for a corporate event, a community gathering, or an online summit, my speaking sessions are crafted to resonate deeply and inspire action. I share insights from the science of well-being and my own journey of growth.",
-        "p2": "Topics include building resilience, the power of mindset, positive psychology in daily life, and finding your luminous self."
+        "title": "Impactful Conversations",
+        "p1": "Bringing evidence-based insights and heartfelt inspiration to your next event",
+        "p2": "As a speaker, I bridge the gap between scientific positive psychology and the messy, beautiful reality of daily life. My sessions are designed to do more than just inspire; they provide the practical tools necessary for sustainable growth. With a decade of experience in my own self-development journey, I share the habits, skills, and mindsets that truly move the needle on personal flourishing and mental well-being."
+      },
+      "whyChoose": {
+        "title": "Why Choose Lumina Rise Speaking?",
+        "subtitle": "Delivering value that resonates long after the session ends",
+        "scienceBacked": {
+          "title": "Science-Backed",
+          "description": "Rooted in positive psychology principles that are proven to enhance well-being and performance."
+        },
+        "practicalStrategies": {
+          "title": "Practical Strategies",
+          "description": "Actionable strategies that attendees can implement the very same day."
+        },
+        "flexibleFormats": {
+          "title": "Flexible Formats",
+          "description": "Available for dynamic in-person keynotes or interactive, high-quality virtual sessions."
+        },
+        "authenticConnection": {
+          "title": "Authentic Connection",
+          "description": "A relatable approach that fosters a safe space for vulnerability and genuine growth."
+        }
+      },
+      "coreTopics": {
+        "title": "Core Speaking Topics",
+        "subtitle": "Specialized sessions covering the pillars of self-growth and positive psychology",
+        "youMatter": {
+          "title": "You Matter: The Art of Putting Yourself First",
+          "description": "Explore why you are the most important person in your own life. We discuss how prioritizing your own well-being isn't selfish. It's the foundation for everything else. By putting yourself first, you replenish your energy, set healthy boundaries, and gain the capacity to show up more authentically for the people and projects you love."
+        },
+        "consistency": {
+          "title": "The Power of Consistency: The 1% Rule",
+          "description": "Success isn't built overnight; it's built in the daily quiet moments. Learn how to construct sustainable routines and habits using the 1% approach. Making tiny, incremental improvements that lead to massive transformation over time. We focus on the psychology of building success through the compounding power of small, consistent actions."
+        },
+        "fulfillingLife": {
+          "title": "Designing a Fulfilling Life",
+          "description": "Move beyond just \"getting by\" and start living with intention. This session covers the core pillars of a meaningful life, helping you align your daily actions with your deepest values. We explore practical strategies to bridge the gap between where you are and where you want to be, creating a life filled with purpose, joy, and lasting satisfaction."
+        }
+      },
+      "engagementTypes": {
+        "title": "Engagement Types",
+        "subtitle": "Choose the format that best suits your group or organization",
+        "inPerson": {
+          "title": "In Person",
+          "duration": "Approximately 45-60 Minutes",
+          "features": [
+            "High-impact inspirational talk",
+            "Core positive psychology insights",
+            "Q&A session included"
+          ],
+          "perfectFor": "Perfect for conferences and large events",
+          "btn": "Inquire Now"
+        },
+        "virtual": {
+          "title": "Virtual",
+          "duration": "Approximately 45-60 Minutes",
+          "features": [
+            "High-impact inspirational talk",
+            "Core positive psychology insights",
+            "Q&A session included"
+          ],
+          "perfectFor": "Best for global teams and online communities",
+          "btn": "Inquire Now"
+        }
+      },
+      "cta": {
+        "title": "Ready to Inspire Your Audience?",
+        "description": "Let's collaborate to create a memorable experience that sparks genuine growth and positive change for your group.",
+        "btn": "Check Availability"
       }
     },
     "Workshops": {
@@ -366,72 +440,274 @@
   "Toolkits": {
     "SelfCare": {
       "title": "The Self-Care Toolkit",
-      "description": "Nurture your soul and recharge your spirit with daily practices, mindfulness guides, relaxation techniques, and self-care routines.",
-      "heroBtn": "Explore the Tools",
+      "description": "Nurture your soul and recharge your spirit with daily practices, mindfulness guides, relaxation techniques, and self-nurturing routines.",
+      "heroBtn": "Explore Tools",
       "intro": {
         "title": "About Self-Care",
-        "subtitle": "Understanding the importance of prioritizing yourself and your well-being.",
-        "p1": "Self-care is the practice of taking deliberate action to preserve or improve your physical, mental, and emotional health. It's about identifying your own needs and taking steps to meet them; it's a vital part of stress management and overall well-being.",
-        "p2": "At Lumina Rise, we believe that self-care is not selfish—it’s necessary. When you prioritize your well-being, you’re better equipped to show up fully in all areas of your life."
-      },
-      "why": {
-        "title": "Why Self-Care Matters",
-        "p1": "In today's fast-paced world, women often find themselves at the bottom of their own priority list. Research consistently shows that regular self-care practices lead to:",
-        "items": [
-          "Reduced stress and anxiety",
-          "Improved mood and emotional regulation",
-          "Enhanced immune function",
-          "Better relationships",
-          "Increased productivity and creativity",
-          "Greater resilience during difficult times"
-        ]
+        "subtitle": "Understanding the importance of prioritizing yourself and your well-being",
+        "whatIs": {
+          "title": "What is Self-Care?",
+          "p1": "Self-care is the practice of taking deliberate action to preserve or improve your physical, mental, and emotional health. It's about identifying your own needs and taking steps to meet them, it is an essential part of stress management and overall wellness.",
+          "p2": "At Lumina Rise, we believe self-care isn't selfish, it's necessary. When you prioritize your well-being, you're better equipped to show up fully in every area of your life. Self-care is both preventative and restorative, helping you maintain balance and recover from life's challenges."
+        },
+        "why": {
+          "title": "Why Self-Care Matters",
+          "p1": "In today's fast-paced world, women often find themselves at the bottom of their own priority lists. Between career demands, family responsibilities, and social obligations, taking time for self-care can seem indulgent or impossible.",
+          "p2": "However, research consistently shows that regular self-care practices lead to:",
+          "items": [
+            "Reduced stress and anxiety",
+            "Improved mood and emotional regulation",
+            "Enhanced immune function",
+            "Better relationships",
+            "Increased productivity and creativity",
+            "Greater resilience during challenging times"
+          ]
+        }
       },
       "tools": {
-        "title": "Toolkit Contents (77 pages)",
-        "subtitle": "Practical resources to help you establish a sustainable self-care practice.",
+        "title": "Self-Care Tools (77 pages)",
+        "subtitle": "Practical resources to help you establish a sustainable self-care practice",
         "items": [
           {
+            "icon": "fa-sun",
             "title": "Morning Rituals",
-            "text": "Start your day with intention through guided morning practices."
+            "text": "Start your day with intention through guided morning practices that set a positive tone for the hours ahead."
           },
           {
-            "title": "Mindfulness",
-            "text": "Learn to be fully present in the moment with guided exercises."
+            "icon": "fa-brain",
+            "title": "Mindfulness Practices",
+            "text": "Learn to be fully present in the moment with guided mindfulness exercises and breathing techniques."
           },
           {
+            "icon": "fa-moon",
             "title": "Evening Wind-Down",
-            "text": "Discover calming routines for a restful night's sleep."
+            "text": "Discover calming routines to help you transition from the busyness of the day to restful sleep."
           },
           {
-            "title": "Self-Compassion",
-            "text": "Transform your inner dialogue with kindness-focused practices."
+            "icon": "fa-heart",
+            "title": "Self-Compassion Guide",
+            "text": "Transform your inner dialogue with practices that foster kindness toward yourself."
           },
           {
-            "title": "Assessment",
-            "text": "Evaluate your current practices across different dimensions of well-being."
+            "icon": "fa-clipboard-list",
+            "title": "Self-Care Assessment",
+            "text": "Evaluate your current self-care practices across different dimensions of wellness."
           },
           {
-            "title": "Healthy Boundaries",
-            "text": "Strategies to set healthy limits and protect your energy."
+            "icon": "fa-door-closed",
+            "title": "Boundary Setting",
+            "text": "Learn practical strategies for establishing healthy boundaries to protect your energy."
           }
         ]
       },
       "buy": {
-        "btn": "Buy the Toolkit – CAD 28",
-        "info": "Secure payment via Stripe. Credit cards, Apple Pay, and Google Pay accepted. You will receive the toolkit via email within 24 hours of payment."
+        "btn": "Buy the Self-Care Toolkit – $28",
+        "info": "Secure checkout powered by Stripe. Credit card, Apple Pay, and Google Pay accepted. You will receive the toolkit by email within 24 hours after payment."
+      },
+      "backBtn": "Back to All Toolkits",
+      "contact": {
+        "title": "Get in Touch",
+        "subtitle": "Have questions about this toolkit? Reach out to us today.",
+        "info": {
+          "title": "Contact Information",
+          "description": "We'd love to hear from you. Whether you have questions about this toolkit or how we can support your journey, don't hesitate to reach out.",
+          "email": "LuminaRiseSelfGrowth@gmail.com",
+          "location": "Virtual services available worldwide"
+        },
+        "form": {
+          "title": "Send a Message",
+          "name": "Your Name / Votre Nom",
+          "email": "Your Email / Votre Courriel",
+          "message": "Your Message / Votre Message",
+          "submit": "Send Message"
+        }
       }
     },
     "PersonalGrowth": {
       "title": "The Personal Growth Toolkit",
-      "description": "Strategies to evolve and thrive through goal-setting exercises and reflective journaling prompts.",
-      "heroBtn": "Explore the Tools",
-      "buyBtn": "Buy the Toolkit – CAD 28"
+      "description": "Discover your potential and expand your horizons with goal-setting frameworks, self-discovery exercises, and transformational practices.",
+      "heroBtn": "Explore Tools",
+      "intro": {
+        "title": "About Personal Growth",
+        "subtitle": "Understanding the journey of continuous self-improvement and development",
+        "whatIs": {
+          "title": "What is Personal Growth?",
+          "p1": "Personal growth is the ongoing process of understanding and developing yourself in order to achieve your fullest potential. It involves a commitment to becoming the best version of yourself through conscious effort, reflection, and action.",
+          "p2": "At Lumina Rise, we believe personal growth is a lifelong journey that requires intention, courage, and consistency. When you commit to your personal development, you open doors to new possibilities, deeper connections, and a more fulfilling life experience."
+        },
+        "why": {
+          "title": "Why Personal Growth Matters",
+          "p1": "In a world of constant change and increasing complexity, personal growth isn't just beneficial, it's essential. Women who actively pursue personal development tend to experience greater satisfaction, resilience, and success in all areas of life.",
+          "p2": "Research and experience show that intentional personal growth leads to:",
+          "p3": "When we neglect our personal growth, we risk stagnation, missed opportunities, and a diminished sense of fulfillment. By contrast, when we actively engage in our development, we create the conditions for a life of meaning, purpose, and joy.",
+          "items": [
+            "Increased self-awareness and emotional intelligence",
+            "Greater clarity about your values and purpose",
+            "Enhanced confidence and self-efficacy",
+            "Improved decision-making abilities",
+            "More fulfilling relationships",
+            "Greater adaptability to life's challenges"
+          ]
+        }
+      },
+      "tools": {
+        "title": "Personal Growth Tools",
+        "subtitle": "Practical resources to help you expand your potential and live with greater purpose",
+        "items": [
+          {
+            "icon": "fa-compass",
+            "title": "Values Clarification",
+            "text": "Identify and prioritize your core values to create alignment between your daily choices and what matters most to you. This foundational exercise brings clarity to decision-making and life direction."
+          },
+          {
+            "icon": "fa-bullseye",
+            "title": "Goal-Setting Framework",
+            "text": "Learn a structured approach to setting meaningful goals that inspire action. This comprehensive framework helps you create specific, measurable objectives with clear action plans."
+          },
+          {
+            "icon": "fa-lightbulb",
+            "title": "Limiting Beliefs Transformation",
+            "text": "Identify and reframe the unconscious beliefs that may be holding you back from reaching your full potential. This powerful tool helps you replace self-limiting thoughts with empowering alternatives."
+          },
+          {
+            "icon": "fa-chart-line",
+            "title": "Growth Mindset Practices",
+            "text": "Develop a mindset that embraces challenges and sees failures as opportunities for growth. These practical exercises help you cultivate resilience and persistence in pursuit of your goals."
+          },
+          {
+            "icon": "fa-book",
+            "title": "Reflection Journal Prompts",
+            "text": "Deepen your self-awareness through guided journaling exercises designed to uncover insights about your patterns, desires, and opportunities for growth."
+          },
+          {
+            "icon": "fa-puzzle-piece",
+            "title": "Strengths Assessment",
+            "text": "Discover and leverage your unique strengths to achieve greater success and satisfaction. This assessment helps you identify your natural talents and how to apply them effectively."
+          }
+        ]
+      },
+      "buy": {
+        "btn": "Buy the Personal Growth Toolkit – $28",
+        "info": "Secure checkout powered by Stripe. Credit card, Apple Pay, and Google Pay accepted. You will receive the toolkit by email within 24 hours after payment."
+      },
+      "howToUse": {
+        "title": "How to Use This Toolkit",
+        "p1": "The Personal Growth Toolkit is designed to support you at any stage of your development journey. We recommend beginning with the Values Clarification exercise to establish a strong foundation for your growth work.",
+        "p2": "From there, explore the tools that align with your current priorities and challenges. You might focus on setting meaningful goals, addressing limiting beliefs, or cultivating a growth mindset, whatever feels most relevant to your life right now.",
+        "p3": "Remember that personal growth is highly individualized. What works for someone else might not resonate with you, and what you need today might differ from what you'll need tomorrow. Trust your intuition as you engage with these tools, and feel free to adapt them to better suit your unique circumstances."
+      },
+      "cta": {
+        "title": "Ready to Accelerate Your Growth?",
+        "description": "Explore our personalized coaching programs designed to help you overcome obstacles and create meaningful transformation in your life.",
+        "btn": "View Our Programs"
+      },
+      "backBtn": "Back to All Toolkits",
+      "contact": {
+        "title": "Get in Touch",
+        "subtitle": "Have questions about this toolkit? Reach out to us today.",
+        "info": {
+          "title": "Contact Information",
+          "description": "We'd love to hear from you. Whether you have questions about this toolkit or how we can support your journey, don't hesitate to reach out.",
+          "email": "LuminaRiseSelfGrowth@gmail.com",
+          "location": "Virtual services available worldwide"
+        },
+        "form": {
+          "title": "Send a Message",
+          "name": "Your Name",
+          "email": "Your Email",
+          "subject": "Question about the Personal Growth Toolkit",
+          "message": "Your Message",
+          "submit": "Send Message"
+        }
+      }
     },
     "Empowerment": {
       "title": "Empowerment Essentials",
       "description": "Tools to build unshakeable confidence with confidence-boosting activities and leadership modules.",
       "heroBtn": "Join the Waitlist",
-      "status": "*Coming Soon"
+      "status": "*Coming Soon",
+      "intro": {
+        "title": "About Empowerment",
+        "subtitle": "Understanding the journey to building confidence and personal power",
+        "whatIs": {
+          "title": "What is Empowerment?",
+          "p1": "Empowerment is the process of gaining the power and authority to make decisions and take control of your life. It involves building confidence, developing leadership skills, and cultivating the mindset necessary to overcome obstacles and achieve your goals.",
+          "p2": "At Lumina Rise, we believe empowerment is not about dominance over others, but about discovering and owning your own strength. When you feel empowered, you're better equipped to navigate challenges, advocate for yourself, and create the life you desire."
+        },
+        "why": {
+          "title": "Why Empowerment Matters",
+          "p1": "In a world that often tells women to be quiet, accommodating, and self-sacrificing, empowerment is a revolutionary act. Women who embrace their power tend to experience greater satisfaction, influence, and impact in all areas of life.",
+          "p2": "Research and experience show that true empowerment leads to:",
+          "items": [
+            "Increased confidence and self-esteem",
+            "Greater ability to set and maintain boundaries",
+            "Enhanced leadership and influence skills",
+            "Improved decision-making and assertiveness",
+            "More authentic self-expression",
+            "Greater resilience in the face of adversity"
+          ]
+        }
+      },
+      "tools": {
+        "title": "Empowerment Tools",
+        "subtitle": "Practical resources to help you build confidence and claim your personal power",
+        "items": [
+          {
+            "icon": "fa-crown",
+            "title": "Confidence Building",
+            "text": "Develop unshakeable self-confidence through proven techniques and exercises that help you recognize and appreciate your unique strengths and abilities."
+          },
+          {
+            "icon": "fa-users",
+            "title": "Leadership Skills",
+            "text": "Cultivate natural leadership abilities that allow you to inspire others, take initiative, and create positive change in your personal and professional life."
+          },
+          {
+            "icon": "fa-microphone",
+            "title": "Public Speaking & Presence",
+            "text": "Master the art of speaking with confidence and presence, whether in meetings, presentations, or social situations."
+          },
+          {
+            "icon": "fa-shield-alt",
+            "title": "Assertiveness Training",
+            "text": "Learn to express your needs and opinions clearly and respectfully, while maintaining healthy relationships and boundaries."
+          },
+          {
+            "icon": "fa-fire",
+            "title": "Personal Power",
+            "text": "Reclaim your personal power by identifying and overcoming self-doubt, imposter syndrome, and other barriers to your full expression."
+          },
+          {
+            "icon": "fa-star",
+            "title": "Goal Achievement",
+            "text": "Develop the mindset and strategies needed to set ambitious goals and follow through with consistent action until you achieve them."
+          }
+        ]
+      },
+      "comingSoon": {
+        "title": "Coming Soon",
+        "description": "The Empowerment Essentials toolkit is currently under development. Sign up for our newsletter or contact us to be the first to know when it launches.",
+        "btn": "Join the Waitlist"
+      },
+      "backBtn": "Back to All Toolkits",
+      "contact": {
+        "title": "Get in Touch",
+        "subtitle": "Have questions about this toolkit? Reach out to us today.",
+        "info": {
+          "title": "Contact Information",
+          "description": "We'd love to hear from you. Whether you have questions about this toolkit or how we can support your journey, don't hesitate to reach out.",
+          "email": "LuminaRiseSelfGrowth@gmail.com",
+          "location": "Virtual services available worldwide"
+        },
+        "form": {
+          "title": "Send a Message",
+          "name": "Your Name",
+          "email": "Your Email",
+          "subject": "Question about the Empowerment Essentials Toolkit",
+          "message": "Your Message",
+          "submit": "Send Message"
+        }
+      }
     }
   },
   "Privacy": {

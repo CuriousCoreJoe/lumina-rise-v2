@@ -208,6 +208,24 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Newsletter Section */}
+      <div className="newsletter-section" style={{ marginTop: '50px', background: 'var(--soft-gradient)', padding: '40px', borderRadius: '10px', boxShadow: '0 5px 15px rgba(0,0,0,0.08)', textAlign: 'center' }}>
+        <h3 style={{ color: 'var(--primary-color)', fontSize: '1.8rem', marginBottom: '20px' }}>{t('newsletter.title')}</h3>
+        <p style={{ color: 'var(--slate-blue)', fontSize: '1.1rem', marginBottom: '15px' }}>{t('newsletter.description')}</p>
+        <div style={{ backgroundColor: 'var(--light-color)', padding: '15px', borderRadius: '8px', marginBottom: '20px', display: 'inline-block' }}>
+          <i className="fas fa-gift" style={{ color: 'var(--primary-color)', fontSize: '2rem', marginBottom: '10px' }}></i>
+          <p style={{ fontWeight: 'bold', color: 'var(--accent-color)' }}>{t('newsletter.gift')}</p>
+        </div>
+        <form action="https://formsubmit.co/Luminariseselfgrowth@gmail.com" method="POST" style={{ maxWidth: '500px', margin: '0 auto' }}>
+          <div className="form-group">
+            <input type="email" name="email" className="form-control" placeholder={t('newsletter.placeholder')} required style={{ padding: '15px', borderRadius: '30px', border: '1px solid #ddd', width: '100%', marginBottom: '20px', fontSize: '1rem' }} />
+          </div>
+          <input type="hidden" name="_next" value="https://luminarise.ca/thank-you" />
+          <input type="hidden" name="_subject" value="New Newsletter Subscription" />
+          <button type="submit" className="btn" style={{ background: 'var(--primary-color)', width: '100%', padding: '15px', fontSize: '1.1rem', fontWeight: '600', borderRadius: '30px' }}>{t('newsletter.btn')}</button>
+        </form>
+      </div>
+
       {/* Contact Section */}
       <section className="contact" id="contact">
         <div className="container">
@@ -230,6 +248,7 @@ export default function HomePage() {
               <div className="social-links">
                 <a href="https://www.instagram.com/luminarise_selfgrowth/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
                 <a href="https://ca.pinterest.com/LuminariseSelfGrowth/mind-health/" target="_blank" rel="noopener noreferrer"><i className="fab fa-pinterest-p"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61566373727142" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
               </div>
             </div>
 
