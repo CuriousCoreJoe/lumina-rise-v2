@@ -1,5 +1,5 @@
 [build]
-  command = "bun run build"
+  command = "bun install && bun run build"
 
 [build.environment]
   NEXT_PRIVATE_LOCAL_WEBPACK = "true"
