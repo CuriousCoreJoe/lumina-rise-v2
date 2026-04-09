@@ -1,10 +1,11 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/routing';
 
 export default function SelfCarePage() {
   const t = useTranslations('Toolkits.SelfCare');
+  const locale = useLocale();
 
   return (
     <main>
@@ -120,7 +121,7 @@ export default function SelfCarePage() {
                   <textarea name="message" className="form-control" placeholder={t('contact.form.message')} required style={{ width: '100%', padding: '12px 15px', border: '1px solid #ddd', borderRadius: '5px', fontSize: '1rem', minHeight: '150px' }}></textarea>
                 </div>
                 <input type="hidden" name="_next" value="https://luminarise.ca/thank-you" />
-                <input type="hidden" name="_subject" value="New Contact Form Submission" />
+                <input type="hidden" name="_subject" value={locale === 'fr' ? "Nouvelle Soumission de Formulaire de Contact" : "New Contact Form Submission"} />
                 <input type="text" name="_honey" style={{ display: 'none' }} />
                 <input type="hidden" name="_captcha" value="true" />
                 <button type="submit" className="btn">{t('contact.form.submit')}</button>

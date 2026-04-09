@@ -17,7 +17,17 @@ export default function Header({ locale }: { locale: string }) {
             <img src="/images/lumina-logo.png" alt="Lumina Rise Logo" style={{ height: '50px', marginRight: '12px' }} />
             <div className="logo-text">
               <h1>Lumina Rise</h1>
-              <p>Where Self-Care Meets Self-Growth</p>
+              <p>{t('logoTagline')}</p>
+            </div>
+            {/* Language Switcher - Next to Logo */}
+            <div className="language-selector-logo">
+              <Link
+                href={pathname}
+                locale={locale === 'en' ? 'fr' : 'en'}
+                className="lang-btn-logo"
+              >
+                {locale === 'en' ? 'FR' : 'EN'}
+              </Link>
             </div>
           </div>
 
@@ -52,7 +62,7 @@ export default function Header({ locale }: { locale: string }) {
                 locale={locale === 'en' ? 'fr' : 'en'}
                 className="lang-btn"
               >
-                <i className="fas fa-globe"></i> {locale === 'en' ? 'EN' : 'FR'}
+                <i className="fas fa-globe"></i> {locale === 'en' ? 'FR' : 'EN'}
               </Link>
             </div>
           </div>

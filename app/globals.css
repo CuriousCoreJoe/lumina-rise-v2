@@ -58,6 +58,7 @@ nav {
 .logo {
   display: flex;
   align-items: center;
+  gap: 15px;
 }
 .logo img {
   height: 50px;
@@ -134,6 +135,27 @@ nav {
 }
 .language-selector {
   margin-left: 0;
+}
+/* Language Switcher - Next to Logo */
+.language-selector-logo {
+  margin-left: 15px;
+}
+.lang-btn-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 15px;
+  background: var(--gradient);
+  color: white !important;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  box-shadow: 0 4px 10px rgba(255, 127, 48, 0.3);
+  transition: transform 0.2s;
+}
+.lang-btn-logo:hover {
+  transform: scale(1.05);
 }
 .lang-btn {
   display: inline-flex;

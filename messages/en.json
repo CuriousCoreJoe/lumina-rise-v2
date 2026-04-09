@@ -393,6 +393,7 @@
           "description": "Move beyond just \"getting by\" and start living with intention. This session covers the core pillars of a meaningful life, helping you align your daily actions with your deepest values. We explore practical strategies to bridge the gap between where you are and where you want to be, creating a life filled with purpose, joy, and lasting satisfaction."
         }
       },
+      "andMore": "And more",
       "engagementTypes": {
         "title": "Engagement Types",
         "subtitle": "Choose the format that best suits your group or organization",
@@ -743,5 +744,16 @@
     "emailPlaceholder": "Your Email",
     "subscribe": "Subscribe",
     "copyright": "All Rights Reserved."
+  },
+  "ThankYou": {
+    "title": "Thank You for Subscribing!",
+    "subtitle": "Your free Daily Self-Care Tracker is ready for download.",
+    "message1": "Thank you for joining the Lumina Rise community! We're excited to be part of your self-growth journey.",
+    "message2": "Check your email for a confirmation message with more information.",
+    "downloadTitle": "Download Your Free Tracker Now",
+    "downloadText": "Click the button below to get your free tracker immediately:",
+    "downloadBtn": "Download Daily Self-Care Tracker",
+    "spamMessage": "If you don't see the email in your inbox within the next 24 hours, please check your spam folder.",
+    "returnBtn": "Return to Homepage"
   }
 }

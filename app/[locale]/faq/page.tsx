@@ -1,9 +1,10 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 
 export default function FAQPage() {
   const t = useTranslations('FAQ');
+  const locale = useLocale();
 
   return (
     <main>
@@ -165,20 +166,20 @@ export default function FAQPage() {
       <section className="contact" id="contact" style={{ padding: '100px 0', backgroundColor: 'var(--soft-peach)' }}>
         <div className="container">
           <div className="section-title" style={{ textAlign: 'center', marginBottom: '60px' }}>
-            <h2 style={{ fontSize: '2.5rem', color: 'var(--primary-color)', marginBottom: '15px' }}>Get in Touch</h2>
-            <p style={{ color: 'var(--slate-blue)' }}>Ready to start your self-growth journey? Reach out today to see how we can support your transformation.</p>
+            <h2 style={{ fontSize: '2.5rem', color: 'var(--primary-color)', marginBottom: '15px' }}>{t('contact.title')}</h2>
+            <p style={{ color: 'var(--slate-blue)' }}>{t('contact.subtitle')}</p>
           </div>
           <div className="contact-container" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '50px' }}>
             <div className="contact-info">
-              <h3 style={{ fontSize: '1.8rem', color: 'var(--accent-color)', marginBottom: '30px' }}>Contact Information</h3>
-              <p>I'd love to hear from you. Reach out with any questions about coaching, workshops, or the toolkits.</p>
+              <h3 style={{ fontSize: '1.8rem', color: 'var(--accent-color)', marginBottom: '30px' }}>{t('contact.info.title')}</h3>
+              <p>{t('contact.info.description')}</p>
               <div className="info-item" style={{ display: 'flex', marginBottom: '20px' }}>
                 <i className="fas fa-envelope" style={{ color: 'var(--primary-color)', marginRight: '15px' }}></i>
-                <p>Luminariseselfgrowth@gmail.com</p>
+                <p>{t('contact.info.email')}</p>
               </div>
               <div className="info-item" style={{ display: 'flex', marginBottom: '20px' }}>
                 <i className="fas fa-map-marker-alt" style={{ color: 'var(--primary-color)', marginRight: '15px' }}></i>
-                <p>Virtual services available worldwide</p>
+                <p>{t('contact.info.location')}</p>
               </div>
               <div className="social-links" style={{ display: 'flex', gap: '15px', marginTop: '20px' }}>
                 <a href="https://www.instagram.com/luminarise_selfgrowth/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--light-color)', backgroundColor: 'rgba(255,255,255,0.1)', display: 'inline-flex', justifyContent: 'center', alignItems: 'center', width: '40px', height: '40px', borderRadius: '50%', transition: 'all 0.3s' }}>
@@ -191,27 +192,27 @@ export default function FAQPage() {
             </div>
 
             <div className="contact-form">
-              <h3 style={{ fontSize: '1.8rem', color: 'var(--accent-color)', marginBottom: '30px' }}>Send a Message</h3>
+              <h3 style={{ fontSize: '1.8rem', color: 'var(--accent-color)', marginBottom: '30px' }}>{t('contact.form.title')}</h3>
               <form action="https://formsubmit.co/Luminariseselfgrowth@gmail.com" method="POST">
                 <div className="form-group" style={{ marginBottom: '20px' }}>
-                  <input type="text" name="name" className="form-control" placeholder="Your Name" required style={{ width: '100%', padding: '12px 15px', border: '1px solid #ddd', borderRadius: '5px', fontSize: '1rem' }} />
+                  <input type="text" name="name" className="form-control" placeholder={t('contact.form.name')} required style={{ width: '100%', padding: '12px 15px', border: '1px solid #ddd', borderRadius: '5px', fontSize: '1rem' }} />
                 </div>
                 <div className="form-group" style={{ marginBottom: '20px' }}>
-                  <input type="email" name="email" className="form-control" placeholder="Your Email" required style={{ width: '100%', padding: '12px 15px', border: '1px solid #ddd', borderRadius: '5px', fontSize: '1rem' }} />
+                  <input type="email" name="email" className="form-control" placeholder={t('contact.form.email')} required style={{ width: '100%', padding: '12px 15px', border: '1px solid #ddd', borderRadius: '5px', fontSize: '1rem' }} />
                 </div>
                 <div className="form-group" style={{ marginBottom: '20px' }}>
                   <select name="inquiry-type" className="form-control" required style={{ width: '100%', padding: '12px 15px', border: '1px solid #ddd', borderRadius: '5px', fontSize: '1rem' }}>
-                    <option value="">I'm interested in...</option>
-                    <option value="coaching">One-on-One Coaching</option>
-                    <option value="workshop">Group Workshops</option>
-                    <option value="toolkit">Toolkit Purchase</option>
-                    <option value="other">General Inquiry</option>
+                    <option value="">{t('contact.form.interest')}</option>
+                    <option value="coaching">{t('contact.form.interests.coaching')}</option>
+                    <option value="workshop">{t('contact.form.interests.workshop')}</option>
+                    <option value="toolkit">{t('contact.form.interests.toolkit')}</option>
+                    <option value="other">{t('contact.form.interests.other')}</option>
                   </select>
                 </div>
                 <div className="form-group" style={{ marginBottom: '20px' }}>
-                  <textarea name="message" className="form-control" placeholder="Your Message" style={{ width: '100%', padding: '12px 15px', border: '1px solid #ddd', borderRadius: '5px', fontSize: '1rem', minHeight: '150px' }} required></textarea>
+                  <textarea name="message" className="form-control" placeholder={t('contact.form.message')} style={{ width: '100%', padding: '12px 15px', border: '1px solid #ddd', borderRadius: '5px', fontSize: '1rem', minHeight: '150px' }} required></textarea>
                 </div>
-                <button type="submit" className="btn">Send Message</button>
+                <button type="submit" className="btn">{t('contact.form.submit')}</button>
               </form>
             </div>
           </div>

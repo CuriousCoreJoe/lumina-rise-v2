@@ -1,4 +1,14 @@
 {
+  "Header": {
+    "home": "Accueil",
+    "about": "À propos",
+    "founder": "À propos de la fondatrice",
+    "toolbox": "Boîte à outils",
+    "services": "Services",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "logoTagline": "Où le bien-être rencontre le développement personnel"
+  },
   "Index": {
     "title": "Aider les femmes à s'élever et à briller",
     "description": "Découvrez les outils et les conseils dont vous avez besoin pour nourrir votre santé mentale, embrasser votre croissance personnelle et transformer votre vie.",
@@ -67,7 +77,7 @@
       "btn": "Séance découverte gratuite"
     },
     "toolbox": {
-      "title": "le concert de la boîte à outils",
+      "title": "le concept de la boîte à outils",
       "subtitle": "Votre vie est votre plus grande création, et chaque créatrice a besoin des bons outils. Tout comme un constructeur ne bâtirait pas une maison sans plans et sans équipement approprié, vous ne devriez pas naviguer dans les complexités de la vie sans ressources conçues pour votre succès.",
       "selfCare": {
         "title": "la boîte à outils de soins personnels",
@@ -75,7 +85,7 @@
         "description": "Nourrissez votre âme et rechargez votre esprit avec des pratiques quotidiennes, des guides de pleine conscience et des routines d'auto-soin."
       },
       "personalGrowth": {
-        "title": "la boîte à outils de croissance personelle",
+        "title": "la boîte à outils de croissance personnelle",
         "pages": "(78 pages - EN seulement pour le moment)",
         "description": "Des stratégies pour évoluer et s'épanouir grâce à des exercices de définition d'objectifs et des invites de journalisation."
       },
@@ -102,7 +112,7 @@
       "subtitle": "Prête à commencer votre parcours de croissance ? Contactez-nous dès aujourd'hui pour voir comment nous pouvons soutenir votre transformation.",
       "info": {
         "title": "Informations de contact",
-        "description": "N'hésitez pas à nous contacter pour toute question sur le coaching, les ateliers présentation ou les boîtes à outils.",
+        "description": "N'hésitez pas à nous contacter pour toute question sur le coaching, les ateliers et présentations ou les boîtes à outils.",
         "email": "Luminariseselfgrowth@gmail.com",
         "location": "Services virtuels disponibles dans le monde entier"
       },
@@ -135,7 +145,7 @@
       "title": "Passion pour le développement de soi",
       "p1": "Bonjour, je suis Gina-Line, le 'heart and soul' de Lumina Rise. Après plus d'une décennie plongée dans mon propre parcours de développement personnel, j'ai ressenti le besoin de créer un espace où les femmes pourraient se sentir vues, soutenues et confiante dans l'habilitées de devenir la version la plus rayonnante d'elles-mêmes. J'ai traversé des périodes difficiles, redécouvert ma force intérieure et appris de première main le pouvoir transformateur de la résilience, de l'état d'esprit et du bien-être. C'est pourquoi je suis si passionnée d'aider les autres à faire de même.",
       "p2": "Avec une formation en coaching en psychologie positive, un certificat de Yale en bien-être et un amour inébranlable pour la croissance personnelle, je guide maintenant les femmes vers des vies remplies de sens, de confiance et de joie. Lumina Rise n'est pas seulement une marque, c'est un mouvement. Un mouvement enraciné dans l'authenticité, la croissance et la compassion profonde. Que vous soyez ici pour guérir, évoluer ou vous reconnecter avec votre vrai moi, je suis honorée de marcher sur ce chemin à vos côtés.",
-      "p3": "Dans un monde qui se précipite toujours, Lumina Rise offre un rythme différent, un rythme qui marie le bien-être avec le développement personnel, et le travail intérieur avec l'action dans la vie réelle",
+      "p3": "Dans un monde qui se précipite toujours, Lumina Rise offre un rythme différent, un rythme qui marie le bien-être avec le développement personnel, et le travail intérieur avec l'action dans la vie réelle.",
       "p4": "Ce qui m'illumine vraiment, c'est de témoigner de cette étincelle, ce moment où une femme réalise son propre pouvoir et commence à se présenter pleinement dans sa vie. C'est le genre de magie pour laquelle je crois en ceci.",
       "p5": "Je suis infiniment curieuse de savoir comment le mindset, les émotions et l'action intentionnelle créent une transformation durable. J'explore constamment de nouvelles idées, d'anciennes sagesses et des pratiques fondées sur des preuves qui aident les femmes à s'épanouir de l'intérieur. C'est pourquoi je suis si attirée par la psychologie positive, elle combine la science du bien-être avec le cœur d'une vie significative.",
       "p6": "Au fond de moi, je suis animée par une passion simple mais puissante : aider les femmes à retrouver leur joie, leur confiance et leur sens des possibilités. Peu importe à quelle étape du voyage vous vous trouvez, sachez ceci... vous n'êtes pas seule. Et votre transformation ? Elle commence ici même."
@@ -162,7 +172,7 @@
       "intersectionP5": "Cette philosophie promeut l'idée que la croissance ne doit pas être douloureuse ou accablante. Elle peut être édifiante, guérissante et profondément personnelle. Lorsque le bien-être est tissé dans votre parcours de croissance, vous constaterez que les deux deviennent plus faciles et plus épanouissants, menant à une vie plus significative."
     },
     "toolbox": {
-      "title": "le concert de la boîte à outils",
+      "title": "le concept de la boîte à outils",
       "subtitle": "Des outils différents pour des tâches différentes",
       "text": "Tout comme un artisan sélectionne les bons outils pour chaque projet, créer une vie épanouie et autonome commence par la construction de votre propre boîte à outils personnalisée. Parce que le chemin de chaque femme est différent, votre boîte à outils est adaptée à vos défis spécifiques, amplifie vos forces et nourrit vos aspirations les plus profondes. Avec les bons outils en main, vous êtes équipée pour vous élever, reconstruire et prospérer, peu importe ce qui se présente."
     }
@@ -281,6 +291,30 @@
       "title": "L'approche Lumina Rise",
       "quote": "\"Je coache à partir de mon expérience vécue. Depuis plus de 12 ans, j'ai fait le travail moi-même, m'investissant profondément dans ma propre guérison et ma croissance.\"",
       "text": "La vraie croissance demande de la constance. Je propose des options d'engagement car le changement ne se produit pas en une seule conversation, il se produit par l'engagement. Mon rôle n'est pas de vous dire qui devenir ; c'est de vous aider à découvrir la force qui a toujours été là."
+    },
+    "contact": {
+      "title": "Entrez en contact",
+      "subtitle": "Prête à commencer votre parcours de croissance personnelle? Contactez-nous dès aujourd'hui.",
+      "info": {
+        "title": "Informations de contact",
+        "description": "Nous aimerions avoir de vos nouvelles. Contactez-nous pour toute question sur nos programmes.",
+        "email": "Luminariseselfgrowth@gmail.com",
+        "location": "Services virtuels disponibles dans le monde entier"
+      },
+      "form": {
+        "title": "Envoyer un message",
+        "name": "Votre nom",
+        "email": "Votre courriel",
+        "interest": "Je suis intéressée par...",
+        "interests": {
+          "coaching": "Coaching Individuel",
+          "workshop": "Ateliers de Groupe",
+          "toolkit": "Achat de Boîte à Outils",
+          "other": "Demande générale"
+        },
+        "message": "Votre Message",
+        "submit": "Envoyer"
+      }
     }
   },
   "Services": {
@@ -288,6 +322,10 @@
       "title": "Coaching Individuel : Votre chemin vers l'épanouissement",
       "description": "Un espace sûr et puissant où vous êtes vue, entendue et mise au défi de renforcer votre confiance de l'intérieur.",
       "heroBtn": "Réservez votre séance découverte",
+      "cta": {
+        "title": "Prête à commencer votre transformation ?",
+        "description": "Réservez une séance de découverte gratuite aujourd'hui et découvrez comment le coaching peut vous aider à vous élever."
+      },
       "intro": {
         "title": "Pourquoi le coaching individuel ?",
         "p1": "Dans un monde qui nous demande souvent de nous effacer, le coaching individuel est votre permission de prendre de la place. C’est un partenariat dédié, conçu pour combler le fossé entre là où vous êtes et là où vous voulez être.",
@@ -315,6 +353,7 @@
         ]
       },
       "packages": {
+        "popularChoice": "Choix Populaire",
         "title": "Forfaits de coaching",
         "discovery": {
           "title": "Séance découverte",
@@ -330,7 +369,7 @@
           "title": "Parcours de transformation",
           "price": "Sur mesure",
           "features": [
-            "8 séances bi-mensuelles",
+            "séances bi-mensuelles",
             "Plongée profonde dans l'état d'esprit et les habitudes",
             "Plans d'action personnalisés",
             "Soutien par courriel entre les séances"
@@ -393,6 +432,7 @@
           "description": "Allez au-delà du simple fait de \"s'en sortir\" et commencez à vivre avec intention. Cette session couvre les piliers fondamentaux d'une vie significative, vous aidant à aligner vos actions quotidiennes avec vos valeurs les plus profondes. Nous explorons des stratégies pratiques pour combler l'écart entre où vous êtes et où vous voulez être, créant une vie remplie de but, de joie et de satisfaction durable."
         }
       },
+      "andMore": "Et plus encore",
       "engagementTypes": {
         "title": "Types de conférences",
         "subtitle": "Choisissez le format qui convient le mieux à votre groupe ou organisation",
@@ -524,7 +564,7 @@
       }
     },
     "PersonalGrowth": {
-      "title": "la boîte à outils de croissance personelle",
+      "title": "la boîte à outils de croissance personnelle",
       "description": "Découvrez votre potentiel et élargissez vos horizons avec des cadres de définition d'objectifs, des exercices d'autodécouverte et des pratiques transformationnelles.",
       "heroBtn": "Explorer la boîte à outils",
       "intro": {
@@ -622,6 +662,7 @@
       }
     },
     "Empowerment": {
+      "comingSoon": "*Bientôt disponible",
       "title": "l'essentiels de l'empowerment",
       "description": "Des outils pour construire une confiance inébranlable avec des activités de renforcement de la confiance et des modules de leadership.",
       "heroBtn": "Explorer la boîte à outils",
@@ -722,18 +763,20 @@
     "p2": "Lumina Rise fournit du coaching et des ressources basés sur la psychologie positive. Ces services ne remplacent pas une thérapie professionnelle ou un avis médical.",
     "p3": "Tous les produits numériques (boîtes à outils) sont non remboursables une fois livrés."
   },
-  "Header": {
-    "home": "Accueil",
-    "about": "À propos",
-    "founder": "À propos de la fondatrice",
-    "toolbox": "Boîte à outils",
-    "services": "Services",
-    "faq": "FAQ",
-    "contact": "Contact"
+  "ThankYou": {
+    "title": "Merci de vous être abonné !",
+    "subtitle": "Votre tracker gratuit de soins personnels quotidiens est prêt pour le téléchargement.",
+    "message1": "Merci d'avoir rejoint la communauté Lumina Rise ! Nous sommes ravis de faire partie de votre parcours de croissance personnelle.",
+    "message2": "Vérifiez votre courriel pour un message de confirmation avec plus d'informations.",
+    "downloadTitle": "Téléchargez votre tracker gratuit maintenant",
+    "downloadText": "Cliquez sur le bouton ci-dessous pour obtenir votre tracker immédiatement :",
+    "downloadBtn": "Télécharger le tracker de soins personnels quotidiens",
+    "spamMessage": "Si vous ne voyez pas le courriel dans votre boîte de réception dans les 24 prochaines heures, veuillez vérifier votre dossier de courrier indésirable.",
+    "returnBtn": "Retour à l'accueil"
   },
   "Footer": {
     "title": "Lumina Rise Self-Growth",
-    "description": "Autonomiser les femmes à travers des outils de bien-être et de croissance personnelle, des ressources et du soutien.",
+    "description": "Autonomiser les femmes grâce aux soins personnels et aux outils de croissance personnelle, avec soutien.",
     "quickLinks": "Liens Rapides",
     "home": "Accueil",
     "about": "À propos",

@@ -1,10 +1,11 @@
 'use client';
 
 import { Link } from '@/i18n/routing';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 
 export default function HomePage() {
   const t = useTranslations('Index');
+  const locale = useLocale();
 
   return (
     <main>
@@ -221,7 +222,7 @@ export default function HomePage() {
             <input type="email" name="email" className="form-control" placeholder={t('newsletter.placeholder')} required style={{ padding: '15px', borderRadius: '30px', border: '1px solid #ddd', width: '100%', marginBottom: '20px', fontSize: '1rem' }} />
           </div>
           <input type="hidden" name="_next" value="https://luminarise.ca/thank-you" />
-          <input type="hidden" name="_subject" value="New Newsletter Subscription" />
+          <input type="hidden" name="_subject" value="Nouvelle Inscription à l'Infolettre" />
           <button type="submit" className="btn" style={{ background: 'var(--primary-color)', width: '100%', padding: '15px', fontSize: '1.1rem', fontWeight: '600', borderRadius: '30px' }}>{t('newsletter.btn')}</button>
         </form>
       </div>
@@ -275,7 +276,7 @@ export default function HomePage() {
                   <textarea name="message" className="form-control" placeholder={t('contact.form.message')} required></textarea>
                 </div>
                 <input type="hidden" name="_next" value="https://luminarise.ca/thank-you" />
-                <input type="hidden" name="_subject" value="New Contact Form Submission" />
+                <input type="hidden" name="_subject" value={locale === 'fr' ? "Nouvelle Soumission de Formulaire de Contact" : "New Contact Form Submission"} />
                 <input type="text" name="_honey" style={{ display: 'none' }} />
                 <input type="hidden" name="_captcha" value="true" />
                 <button type="submit" className="btn">{t('contact.form.submit')}</button>

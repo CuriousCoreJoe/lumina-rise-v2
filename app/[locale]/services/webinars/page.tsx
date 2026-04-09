@@ -91,6 +91,9 @@ export default function WebinarsPage() {
               <p style={{ color: 'var(--slate-blue)' }}>{t('coreTopics.fulfillingLife.description')}</p>
             </div>
           </div>
+          <div style={{ textAlign: 'center', marginTop: '30px' }}>
+            <Link href="/#contact" className="btn" style={{ display: 'inline-block' }}>{t('coreTopics.andMore')}</Link>
+          </div>
         </div>
       </section>
 

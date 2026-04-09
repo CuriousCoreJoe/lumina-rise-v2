@@ -75,7 +75,7 @@ export default function CoachingPage() {
 
             {/* Transformation Package */}
             <div className="package-card featured" style={{ background: 'white', padding: '40px', borderRadius: '15px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)', textAlign: 'center', border: '2px solid var(--accent-color)', transform: 'scale(1.05)', position: 'relative' }}>
-              <div style={{ position: 'absolute', top: '-15px', right: '30px', background: 'var(--accent-color)', color: 'white', padding: '5px 15px', borderRadius: '20px', fontSize: '0.9rem', fontWeight: 700 }}>Popular Choice</div>
+              <div style={{ position: 'absolute', top: '-15px', right: '30px', background: 'var(--accent-color)', color: 'white', padding: '5px 15px', borderRadius: '20px', fontSize: '0.9rem', fontWeight: 700 }}>{t('packages.popularChoice')}</div>
               <h4 style={{ color: 'var(--accent-color)', fontSize: '1.8rem', marginBottom: '10px' }}>{t('packages.transformation.title')}</h4>
               <div style={{ fontSize: '2.5rem', fontWeight: 700, color: 'var(--primary-color)', marginBottom: '20px' }}>{t('packages.transformation.price')}</div>
               <ul style={{ listStyle: 'none', padding: 0, textAlign: 'left', marginBottom: '30px' }}>
@@ -109,8 +109,8 @@ export default function CoachingPage() {
       {/* CTA Section */}
       <section className="cta-section" style={{ padding: '80px 0', textAlign: 'center', background: 'var(--soft-gradient)' }}>
         <div className="container">
-          <h3>Ready to start your transformation?</h3>
-          <p>Book a free discovery session today and find out how coaching can help you rise.</p>
+          <h3>{t('cta.title')}</h3>
+          <p>{t('cta.description')}</p>
           <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAYVbxl1UMEw3MkVLV0JTSVM0T0pHWklRUU9YQ0hHSi4u" className="btn" style={{ marginTop: '20px' }} target="_blank" rel="noopener noreferrer">{t('heroBtn')}</a>
         </div>
       </section>
