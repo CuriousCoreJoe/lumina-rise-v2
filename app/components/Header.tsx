@@ -24,9 +24,9 @@ export default function Header({ locale }: { locale: string }) {
               <Link
                 href={pathname}
                 locale={locale === 'en' ? 'fr' : 'en'}
-                className="lang-btn-logo"
+                className="lang-link-logo"
               >
-                {locale === 'en' ? 'FR' : 'EN'}
+                {locale === 'en' ? 'EN' : 'FR'}
               </Link>
             </div>
           </div>
@@ -42,10 +42,10 @@ export default function Header({ locale }: { locale: string }) {
               <Link
                 href={pathname}
                 locale={locale === 'en' ? 'fr' : 'en'}
-                className="lang-btn"
+                className="lang-link"
                 onClick={() => setMenuOpen(false)}
               >
-                <i className="fas fa-globe"></i> {locale === 'en' ? 'FR' : 'EN'}
+                {locale === 'en' ? 'EN' : 'FR'}
               </Link>
             </li>
           </ul>
@@ -60,9 +60,9 @@ export default function Header({ locale }: { locale: string }) {
               <Link
                 href={pathname}
                 locale={locale === 'en' ? 'fr' : 'en'}
-                className="lang-btn"
+                className="lang-link"
               >
-                <i className="fas fa-globe"></i> {locale === 'en' ? 'FR' : 'EN'}
+                {locale === 'en' ? 'EN' : 'FR'}
               </Link>
             </div>
           </div>

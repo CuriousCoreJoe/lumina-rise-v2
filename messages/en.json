@@ -316,6 +316,7 @@
       },
       "packages": {
         "title": "Coaching Packages",
+        "popularChoice": "Popular Choice",
         "discovery": {
           "title": "Discovery Session",
           "price": "Free",
@@ -724,6 +725,7 @@
     "p3": "All digital products (toolkits) are non-refundable once delivered."
   },
   "Header": {
+    "logoTagline": "Self-Care & Personal Growth",
     "home": "Home",
     "about": "About",
     "founder": "About the founder",

@@ -92,7 +92,7 @@ export default function WebinarsPage() {
             </div>
           </div>
           <div style={{ textAlign: 'center', marginTop: '30px' }}>
-            <Link href="/#contact" className="btn" style={{ display: 'inline-block' }}>{t('coreTopics.andMore')}</Link>
+            <Link href="/#contact" className="btn" style={{ display: 'inline-block' }}>{t('andMore')}</Link>
           </div>
         </div>
       </section>

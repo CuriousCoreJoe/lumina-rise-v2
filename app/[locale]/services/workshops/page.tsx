@@ -10,7 +10,7 @@ export default function WorkshopsPage() {
     <main>
       <section className="hero">
         <div className="container">
-          <h2>{t('title')} <span style={{ fontSize: '1rem', background: 'var(--accent-color)', padding: '5px 10px', borderRadius: '15px', color: 'white', verticalAlign: 'middle' }}>{t('status')}</span></h2>
+          <h2>{t('title')} <span className="status-badge" style={{ fontSize: '1rem', background: 'var(--accent-color)', padding: '5px 10px', borderRadius: '15px', color: 'white', verticalAlign: 'middle' }}>{t('status')}</span></h2>
           <p>{t('description')}</p>
           <Link href="/#contact" className="btn">{t('heroBtn')}</Link>
         </div>
