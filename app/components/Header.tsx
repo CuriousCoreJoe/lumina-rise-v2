@@ -19,15 +19,9 @@ export default function Header({ locale }: { locale: string }) {
               <h1>Lumina Rise</h1>
               <p>{t('logoTagline')}</p>
             </div>
-            {/* Language Switcher - Next to Logo */}
-            <div className="language-selector-logo">
-              <Link
-                href={pathname}
-                locale={locale === 'en' ? 'fr' : 'en'}
-                className="lang-link-logo"
-              >
-                {locale === 'en' ? 'EN' : 'FR'}
-              </Link>
+            {/* Language Display - Next to Logo (Not Clickable) */}
+            <div className="language-display-logo">
+              <span className="lang-text-logo">{locale === 'en' ? 'EN' : 'FR'}</span>
             </div>
           </div>
 

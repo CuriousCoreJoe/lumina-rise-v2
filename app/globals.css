@@ -136,26 +136,21 @@ nav {
 .language-selector {
   margin-left: 0;
 }
-/* Language Switcher - Next to Logo (Plain Text) */
-.language-selector-logo {
+/* Language Display - Next to Logo (Not Clickable) */
+.language-display-logo {
   margin-left: 15px;
 }
-.lang-link-logo {
+.lang-text-logo {
   display: inline-flex;
   align-items: center;
   gap: 6px;
   padding: 8px 12px;
-  color: var(--slate-blue) !important;
-  text-decoration: none;
+  color: var(--slate-blue);
   font-weight: 600;
   font-size: 0.9rem;
-  transition: color 0.2s;
   border: 1px solid transparent;
   border-radius: 4px;
-}
-.lang-link-logo:hover {
-  color: var(--primary-color) !important;
-  border-color: var(--primary-color);
+  cursor: default;
 }
 
 /* Language Switcher - Header/Nav (Button Styling) */
