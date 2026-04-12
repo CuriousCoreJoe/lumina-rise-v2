@@ -275,7 +275,6 @@ export default function HomePage() {
                 <div className="form-group">
                   <textarea name="message" className="form-control" placeholder={t('contact.form.message')} required></textarea>
                 </div>
-                <input type="hidden" name="_next" value="https://luminarise.ca/thank-you" />
                 <input type="hidden" name="_subject" value={locale === 'fr' ? "Nouvelle Soumission de Formulaire de Contact" : "New Contact Form Submission"} />
                 <input type="text" name="_honey" style={{ display: 'none' }} />
                 <input type="hidden" name="_captcha" value="true" />

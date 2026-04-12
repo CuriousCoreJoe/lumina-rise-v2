@@ -214,7 +214,7 @@
         "a": "Personal development is the intentional process of improving skills, knowledge, or abilities to achieve personal and professional goals. It's about learning, practicing, and applying new skills that make you more capable and confident."
       },
       {
-        "q": "2. What is personal growth?",
+        "q": "2. What is self growth?",
         "a": "Personal growth is the deeper, ongoing process of becoming a better version of yourself on an emotional, mental, and spiritual level. Unlike personal development which focuses on skills, personal growth is about inner transformation, mindset, and character development."
       },
       {
@@ -281,6 +281,30 @@
       "title": "The Lumina Rise Approach",
       "quote": "\"I coach from my lived experience. For over 12 years, I have done the work myself, investing deeply in my own healing and growth.\"",
       "text": "Real growth takes consistency. I offer commitment options because change doesn't happen in a single conversation—it happens through engagement. My role isn't to tell you who to become; it's to help you discover the strength that has always been there."
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "subtitle": "Ready to start your self-growth journey? Reach out today to see how we can support your transformation.",
+      "info": {
+        "title": "Contact Information",
+        "description": "I'd love to hear from you. Reach out with any questions about coaching, workshops, or the toolkits.",
+        "email": "Luminariseselfgrowth@gmail.com",
+        "location": "Virtual services available worldwide"
+      },
+      "form": {
+        "title": "Send a Message",
+        "name": "Your Name",
+        "email": "Your Email",
+        "interest": "I'm interested in...",
+        "interests": {
+          "coaching": "One-on-One Coaching",
+          "workshop": "Group Workshops",
+          "toolkit": "Toolkit Purchase",
+          "other": "General Inquiry"
+        },
+        "message": "Your Message",
+        "submit": "Send Message"
+      }
     }
   },
   "Services": {
@@ -331,7 +355,7 @@
           "title": "Transformation Journey",
           "price": "Custom",
           "features": [
-            "8 bi-weekly sessions",
+            "Bi-weekly sessions",
             "Deep dive into mindset & habits",
             "Personalized action plans",
             "Email support between sessions"

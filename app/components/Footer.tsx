@@ -16,7 +16,7 @@ export default function Footer() {
             <div className="social-links">
               <a href="https://www.instagram.com/luminarise_selfgrowth/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
               <a href="https://ca.pinterest.com/LuminariseSelfGrowth/mind-health/" target="_blank" rel="noopener noreferrer"><i className="fab fa-pinterest-p"></i></a>
-              <a href="https://www.facebook.com/profile.php?id=61566373727142" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
+              <a href="https://www.facebook.com/people/Lumina-Rise/61578665136668/" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
             </div>
           </div>
           <div className="footer-col">
