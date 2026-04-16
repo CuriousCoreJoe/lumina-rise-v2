@@ -312,6 +312,10 @@
       "title": "One-on-One Coaching: Your Path to Flourishing",
       "description": "A safe and powerful space where you are seen, heard, and challenged to build your confidence from the inside out.",
       "heroBtn": "Book Your Discovery Session",
+      "cta": {
+        "title": "Book your one-on-one consultation",
+        "description": "Ready to take the next step in your self-development journey? I offer personalized consultations to help you unlock your potential and create meaningful change in your life. Whether you're looking to build empowering habits, gain clarity on your goals, or explore the science of well-being, I'm here to support you."
+      },
       "intro": {
         "title": "Why One-on-One Coaching?",
         "p1": "In a world that often demands we play small, one-on-one coaching is your permission to take up space. It’s a dedicated partnership designed to bridge the gap between where you are and where you want to be.",
@@ -749,7 +753,7 @@
     "p3": "All digital products (toolkits) are non-refundable once delivered."
   },
   "Header": {
-    "logoTagline": "Self-Care & Personal Growth",
+    "logoTagline": "Where Self-care meets Self-Growth",
     "home": "Home",
     "about": "About",
     "founder": "About the founder",
