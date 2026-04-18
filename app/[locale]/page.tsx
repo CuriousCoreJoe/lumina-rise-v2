@@ -18,7 +18,7 @@ export default function HomePage() {
           <div className="hero-social-icons" style={{ marginTop: '30px', display: 'flex', gap: '20px', justifyContent: 'center' }}>
             <a href="https://www.instagram.com/luminarise_selfgrowth/" target="_blank" rel="noopener noreferrer" title="Instagram" style={{ color: 'var(--soft-peach)', fontSize: '1.8rem', transition: 'transform 0.3s, color 0.3s' }}><i className="fab fa-instagram"></i></a>
             <a href="https://ca.pinterest.com/LuminariseSelfGrowth/mind-health/" target="_blank" rel="noopener noreferrer" title="Pinterest" style={{ color: 'var(--soft-peach)', fontSize: '1.8rem', transition: 'transform 0.3s, color 0.3s' }}><i className="fab fa-pinterest-p"></i></a>
-            <a href="https://www.facebook.com/profile.php?id=61566373727142" target="_blank" rel="noopener noreferrer" title="Facebook" style={{ color: 'var(--soft-peach)', fontSize: '1.8rem', transition: 'transform 0.3s, color 0.3s' }}><i className="fab fa-facebook-f"></i></a>
+            <a href="https://www.facebook.com/people/Lumina-Rise/61578665136668/" target="_blank" rel="noopener noreferrer" title="Facebook" style={{ color: 'var(--soft-peach)', fontSize: '1.8rem', transition: 'transform 0.3s, color 0.3s' }}><i className="fab fa-facebook-f"></i></a>
           </div>
         </div>
       </section>
@@ -249,7 +249,7 @@ export default function HomePage() {
               <div className="social-links">
                 <a href="https://www.instagram.com/luminarise_selfgrowth/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
                 <a href="https://ca.pinterest.com/LuminariseSelfGrowth/mind-health/" target="_blank" rel="noopener noreferrer"><i className="fab fa-pinterest-p"></i></a>
-                <a href="https://www.facebook.com/profile.php?id=61566373727142" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/people/Lumina-Rise/61578665136668/" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
               </div>
             </div>
 
