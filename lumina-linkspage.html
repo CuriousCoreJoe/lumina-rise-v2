@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lumina Rise Self-Growth | Links</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+  :root {
+    --cream: #FBF3EC;
+    --cream-deep: #F5E8DC;
+    --terracotta: #D87B5A;
+    --terracotta-deep: #C25E3D;
+    --plum: #3F2A38;
+    --plum-light: #6B4A5E;
+    --gold: #E8B765;
+    --ink: #2A1D24;
+  }
+  
+  * { -webkit-tap-highlight-color: transparent; }
+  
+  html, body {
+    font-family: 'Inter', sans-serif;
+    background: var(--cream);
+    color: var(--ink);
+    overflow-x: hidden;
+  }
+  
+  .font-display { font-family: 'Fraunces', serif; }
+  
+  /* Animated gradient background */
+  .bg-aurora {
+    background: 
+      radial-gradient(ellipse 80% 60% at 50% 0%, rgba(232, 183, 101, 0.25), transparent 60%),
+      radial-gradient(ellipse 70% 50% at 20% 100%, rgba(216, 123, 90, 0.18), transparent 60%),
+      radial-gradient(ellipse 60% 50% at 80% 90%, rgba(107, 74, 94, 0.15), transparent 60%),
+      linear-gradient(180deg, #FBF3EC 0%, #F5E8DC 100%);
+  }
+  
+  /* Floating orbs */
+  .orb {
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(60px);
+    opacity: 0.35;
+    pointer-events: none;
+    z-index: 0;
+  }
+  
+  .orb-1 {
+    width: 280px; height: 280px;
+    background: radial-gradient(circle, #E8B765, transparent 70%);
+    top: -80px; left: -80px;
+    animation: float1 18s ease-in-out infinite;
+  }
+  
+  .orb-2 {
+    width: 320px; height: 320px;
+    background: radial-gradient(circle, #D87B5A, transparent 70%);
+    bottom: -100px; right: -100px;
+    animation: float2 22s ease-in-out infinite;
+  }
+  
+  .orb-3 {
+    width: 200px; height: 200px;
+    background: radial-gradient(circle, #B8829A, transparent 70%);
+    top: 40%; right: -60px;
+    animation: float3 20s ease-in-out infinite;
+  }
+  
+  @keyframes float1 {
+    0%, 100% { transform: translate(0, 0); }
+    50% { transform: translate(40px, 60px); }
+  }
+  @keyframes float2 {
+    0%, 100% { transform: translate(0, 0); }
+    50% { transform: translate(-50px, -40px); }
+  }
+  @keyframes float3 {
+    0%, 100% { transform: translate(0, 0); }
+    50% { transform: translate(-30px, 30px); }
+  }
+  
+  /* Logo container */
+  .logo-container {
+    background: 
+      linear-gradient(135deg, rgba(255,255,255,0.7), rgba(255,255,255,0.4));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,0.6);
+    box-shadow: 
+      0 20px 60px -10px rgba(63, 42, 56, 0.15),
+      0 8px 20px -5px rgba(216, 123, 90, 0.15),
+      inset 0 1px 0 rgba(255,255,255,0.9);
+  }
+  
+  /* Glass card */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(24px) saturate(180%);
+    -webkit-backdrop-filter: blur(24px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 
+      0 30px 80px -20px rgba(63, 42, 56, 0.18),
+      0 10px 30px -10px rgba(216, 123, 90, 0.12),
+      inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  }
+  
+  /* Link cards */
+  .link-card {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 16px -4px rgba(63, 42, 56, 0.08);
+  }
+  
+  .link-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(216, 123, 90, 0.12), rgba(232, 183, 101, 0.08));
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+  
+  .link-card::after {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 3px;
+    background: linear-gradient(180deg, var(--terracotta), var(--gold));
+    transform: scaleY(0);
+    transform-origin: center;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  
+  .link-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px -8px rgba(216, 123, 90, 0.25);
+    border-color: rgba(216, 123, 90, 0.3);
+  }
+  
+  .link-card:hover::before { opacity: 1; }
+  .link-card:hover::after { transform: scaleY(1); }
+  
+  .link-card:hover .link-arrow {
+    transform: translateX(4px);
+    color: var(--terracotta-deep);
+  }
+  
+  .link-card:active {
+    transform: translateY(0) scale(0.98);
+  }
+  
+  .link-arrow {
+    transition: all 0.3s ease;
+  }
+  
+  /* Social pills */
+  .social-pill {
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+  }
+  
+  .social-pill:hover {
+    transform: translateY(-3px);
+    background: var(--plum);
+    color: var(--cream);
+    border-color: var(--plum);
+    box-shadow: 0 10px 24px -6px rgba(63, 42, 56, 0.35);
+  }
+  
+  /* Animated entrance */
+  .fade-up {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+  
+  @keyframes fadeUp {
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* Shimmer on logo */
+  .shimmer {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .shimmer::after {
+    content: '';
+    position: absolute;
+    top: -50%; left: -50%;
+    width: 200%; height: 200%;
+    background: linear-gradient(
+      45deg,
+      transparent 30%,
+      rgba(255, 255, 255, 0.4) 50%,
+      transparent 70%
+    );
+    transform: rotate(45deg) translateX(-100%);
+    animation: shimmer 4s ease-in-out infinite;
+  }
+  
+  @keyframes shimmer {
+    0%, 100% { transform: rotate(45deg) translateX(-100%); }
+    50% { transform: rotate(45deg) translateX(100%); }
+  }
+  
+  /* Divider */
+  .divider {
+    background: linear-gradient(90deg, transparent, rgba(216, 123, 90, 0.3), transparent);
+  }
+  
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 0; }
+  
+  /* Mobile tweaks */
+  @media (max-width: 380px) {
+    .link-title { font-size: 0.95rem; }
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+</style>
+</head>
+<body class="bg-aurora min-h-screen relative">
+
+  <!-- Floating background orbs -->
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <!-- Subtle grain texture overlay -->
+  <div class="fixed inset-0 pointer-events-none opacity-[0.03] z-0" style="background-image: url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22><filter id=%22n%22><feTurbulence type=%22fractalNoise%22 baseFrequency=%220.9%22/></filter><rect width=%22200%22 height=%22200%22 filter=%22url(%23n)%22/></svg>');"></div>
+
+  <main class="relative z-10 min-h-screen flex flex-col items-center px-4 py-10 sm:py-14">
+
+    <!-- Logo Container (Placeholder) -->
+    <div class="fade-up logo-container shimmer relative w-28 h-28 sm:w-32 sm:h-32 rounded-3xl flex items-center justify-center mb-6" style="animation-delay: 0.05s;">
+      <!-- Logo placeholder - replace with actual logo -->
+      <div class="text-center">
+        <div class="font-display text-4xl sm:text-5xl font-light leading-none" style="color: var(--plum);">
+          L<span style="color: var(--terracotta);">R</span>
+        </div>
+        <div class="text-[8px] tracking-[0.2em] uppercase mt-1" style="color: var(--plum-light);">Lumina Rise</div>
+      </div>
+    </div>
+
+    <!-- Brand name + tagline -->
+    <div class="fade-up text-center mb-2" style="animation-delay: 0.15s;">
+      <h1 class="font-display text-3xl sm:text-4xl font-medium tracking-tight" style="color: var(--plum);">
+        Lumina Rise
+      </h1>
+      <p class="font-display italic text-base sm:text-lg mt-1" style="color: var(--terracotta-deep);">
+        Self-Growth
+      </p>
+    </div>
+
+    <p class="fade-up text-center text-sm sm:text-base max-w-sm leading-relaxed mb-8 px-2" style="animation-delay: 0.25s; color: var(--plum-light);">
+      Where self-care meets self-growth. Your journey to confidence, resilience, and a life filled with purpose.
+    </p>
+
+    <!-- Main glass card containing links -->
+    <div class="fade-up glass-card rounded-3xl p-5 sm:p-7 w-full max-w-md" style="animation-delay: 0.35s;">
+      
+      <!-- Section label -->
+      <div class="flex items-center justify-between mb-4 px-1">
+        <span class="text-xs font-semibold uppercase tracking-widest" style="color: var(--plum-light);">Explore</span>
+        <span class="text-xs" style="color: var(--plum-light); opacity: 0.6;">Tap to visit</span>
+      </div>
+
+      <!-- Link list -->
+      <nav class="space-y-2.5">
+        <a href="#" class="link-card group flex items-center gap-4 p-4 rounded-2xl">
+          <div class="flex-shrink-0 w-10 h-10 rounded-xl flex items-center justify-center" style="background: linear-gradient(135deg, rgba(216,123,90,0.15), rgba(232,183,101,0.1));">
+            <i class="fa-solid fa-house text-sm" style="color: var(--terracotta-deep);"></i>
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="link-title font-semibold text-sm sm:text-base" style="color: var(--plum);">Main Homepage</div>
+            <div class="text-xs truncate" style="color: var(--plum-light);">Start your journey with us</div>
+          </div>
+          <i class="link-arrow fa-solid fa-arrow-right text-sm" style="color: var(--plum-light);"></i>
+        </a>
+
+        <a href="#" class="link-card group flex items-center gap-4 p-4 rounded-2xl">
+          <div class="flex-shrink-0 w-10 h-10 rounded-xl flex items-center justify-center" style="background: linear-gradient(135deg, rgba(216,123,90,0.15), rgba(232,183,101,0.1));">
+            <i class="fa-solid fa-sparkles text-sm" style="color: var(--terracotta-deep);"></i>
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="link-title font-semibold text-sm sm:text-base" style="color: var(--plum);">Services</div>
+            <div class="text-xs truncate" style="color: var(--plum-light);">Coaching programs & offerings</div>
+          </div>
+          <i class="link-arrow fa-solid fa-arrow-right text-sm" style="color: var(--plum-light);"></i>
+        </a>
+
+        <a href="#" class="link-card group flex items-center gap-4 p-4 rounded-2xl">
+          <div class="flex-shrink-0 w-10 h-10 rounded-xl flex items-center justify-center" style="background: linear-gradient(135deg, rgba(216,123,90,0.15), rgba(232,183,101,0.1));">
+            <i class="fa-solid fa-user text-sm" style="color: var(--terracotta-deep);"></i>
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="link-title font-semibold text-sm sm:text-base" style="color: var(--plum);">About Lumina</div>
+            <div class="text-xs truncate" style="color: var(--plum-light);">Our mission & philosophy</div>
+          </div>
+          <i class="link-arrow fa-solid fa-arrow-right text-sm" style="color: var(--plum-light);"></i>
+        </a>
+
+        <a href="#" class="link-card group flex items-center gap-4 p-4 rounded-2xl">
+          <div class="flex-shrink-0 w-10 h-10 rounded-xl flex items-center justify-center" style="background: linear-gradient(135deg, rgba(216,123,90,0.15), rgba(232,183,101,0.1));">
+            <i class="fa-solid fa-book-open text-sm" style="color: var(--terracotta-deep);"></i>
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="link-title font-semibold text-sm sm:text-base" style="color: var(--plum);">Resources & Blog</div>
+            <div class="text-xs truncate" style="color: var(--plum-light);">Tools for your growth journey</div>
+          </div>
+          <i class="link-arrow fa-solid fa-arrow-right text-sm" style="color: var(--plum-light);"></i>
+        </a>
+
+        <a href="#" class="link-card group flex items-center gap-4 p-4 rounded-2xl">
+          <div class="flex-shrink-0 w-10 h-10 rounded-xl flex items-center justify-center" style="background: linear-gradient(135deg, rgba(216,123,90,0.15), rgba(232,183,101,0.1));">
+            <i class="fa-solid fa-envelope text-sm" style="color: var(--terracotta-deep);"></i>
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="link-title font-semibold text-sm sm:text-base" style="color: var(--plum);">Contact & Booking</div>
+            <div class="text-xs truncate" style="color: var(--plum-light);">Let's connect, one-on-one</div>
+          </div>
+          <i class="link-arrow fa-solid fa-arrow-right text-sm" style="color: var(--plum-light);"></i>
+        </a>
+      </nav>
+
+      <!-- Divider -->
+      <div class="divider h-px my-5"></div>
+
+      <!-- CTA highlight -->
+      <a href="#" class="block relative overflow-hidden rounded-2xl p-4 transition-all duration-300 hover:scale-[1.02] active:scale-[0.99]" style="background: linear-gradient(135deg, #D87B5A 0%, #C25E3D 50%, #E8B765 100%); box-shadow: 0 10px 30px -8px rgba(216, 123, 90, 0.4);">
+        <div class="relative flex items-center justify-between">
+          <div>
+            <div class="text-xs font-semibold uppercase tracking-widest opacity-80" style="color: #FBF3EC;">Start Today</div>
+            <div class="font-display text-lg font-medium mt-0.5" style="color: #FBF3EC;">Book a Free Discovery Call</div>
+          </div>
+          <div class="w-9 h-9 rounded-full flex items-center justify-center" style="background: rgba(251, 243, 236, 0.25);">
+            <i class="fa-solid fa-arrow-right text-sm" style="color: #FBF3EC;"></i>
+          </div>
+        </div>
+        <!-- Decorative element -->
+        <div class="absolute -right-6 -bottom-6 w-20 h-20 rounded-full opacity-20" style="background: radial-gradient(circle, #FBF3EC, transparent 70%);"></div>
+      </a>
+
+    </div>
+
+    <!-- Social Links -->
+    <div class="fade-up mt-7 flex items-center gap-3" style="animation-delay: 0.45s;">
+      <a href="#" aria-label="Instagram" class="social-pill w-12 h-12 rounded-full flex items-center justify-center" style="color: var(--plum);">
+        <i class="fa-brands fa-instagram text-lg"></i>
+      </a>
+      <a href="#" aria-label="Pinterest" class="social-pill w-12 h-12 rounded-full flex items-center justify-center" style="color: var(--plum);">
+        <i class="fa-brands fa-pinterest text-lg"></i>
+      </a>
+      <a href="#" aria-label="Facebook" class="social-pill w-12 h-12 rounded-full flex items-center justify-center" style="color: var(--plum);">
+        <i class="fa-brands fa-facebook text-lg"></i>
+      </a>
+      <a href="#" aria-label="TikTok" class="social-pill w-12 h-12 rounded-full flex items-center justify-center" style="color: var(--plum);">
+        <i class="fa-brands fa-tiktok text-lg"></i>
+      </a>
+      <a href="mailto:hello@luminarise.com" aria-label="Email" class="social-pill w-12 h-12 rounded-full flex items-center justify-center" style="color: var(--plum);">
+        <i class="fa-solid fa-envelope text-lg"></i>
+      </a>
+    </div>
+
+    <!-- Footer note -->
+    <footer class="fade-up mt-10 text-center" style="animation-delay: 0.55s;">
+      <p class="font-display italic text-sm" style="color: var(--plum-light);">
+        "You are the light you've been waiting for."
+      </p>
+      <p class="text-xs mt-3 tracking-wide" style="color: var(--plum-light); opacity: 0.7;">
+        © <span id="current-year"></span> Lumina Rise Self-Growth
+      </p>
+    </footer>
+
+  </main>
+
+  <script>
+    // Dynamically set current year
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    // Subtle parallax on pointer move (desktop only)
+    if (window.matchMedia('(hover: hover)').matches) {
+      const orbs = document.querySelectorAll('.orb');
+      document.addEventListener('mousemove', (e) => {
+        const x = (e.clientX / window.innerWidth - 0.5) * 20;
+        const y = (e.clientY / window.innerHeight - 0.5) * 20;
+        orbs.forEach((orb, i) => {
+          const factor = (i + 1) * 0.5;
+          orb.style.transform = `translate(${x * factor}px, ${y * factor}px)`;
+        });
+      });
+    }
+
+    // Soft haptic feedback on mobile tap
+    document.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', (e) => {
+        if (navigator.vibrate) navigator.vibrate(10);
+      });
+    });
+  </script>
+
+</body>
+</html>

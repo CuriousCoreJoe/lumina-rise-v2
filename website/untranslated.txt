@@ -1,0 +1,37 @@
+Index.contact.info.email:::::: Luminariseselfgrowth@gmail.com
+AboutMe.mission.missionTitle:::::: Mission
+AboutMe.mission.visionTitle:::::: Vision
+Toolkits.SelfCare.tools.items.0.icon:::::: fa-sun
+Toolkits.SelfCare.tools.items.1.icon:::::: fa-brain
+Toolkits.SelfCare.tools.items.2.icon:::::: fa-moon
+Toolkits.SelfCare.tools.items.3.icon:::::: fa-heart
+Toolkits.SelfCare.tools.items.4.icon:::::: fa-clipboard-list
+Toolkits.SelfCare.tools.items.5.icon:::::: fa-door-closed
+Toolkits.SelfCare.contact.info.email:::::: LuminaRiseSelfGrowth@gmail.com
+Toolkits.SelfCare.contact.form.name:::::: Your Name / Votre Nom
+Toolkits.SelfCare.contact.form.email:::::: Your Email / Votre Courriel
+Toolkits.SelfCare.contact.form.message:::::: Your Message / Votre Message
+Toolkits.PersonalGrowth.tools.items.0.icon:::::: fa-compass
+Toolkits.PersonalGrowth.tools.items.1.icon:::::: fa-bullseye
+Toolkits.PersonalGrowth.tools.items.2.icon:::::: fa-lightbulb
+Toolkits.PersonalGrowth.tools.items.3.icon:::::: fa-chart-line
+Toolkits.PersonalGrowth.tools.items.4.icon:::::: fa-book
+Toolkits.PersonalGrowth.tools.items.5.icon:::::: fa-puzzle-piece
+Toolkits.PersonalGrowth.contact.info.email:::::: LuminaRiseSelfGrowth@gmail.com
+Toolkits.PersonalGrowth.contact.form.name:::::: Your Name
+Toolkits.PersonalGrowth.contact.form.email:::::: Your Email
+Toolkits.PersonalGrowth.contact.form.subject:::::: Question about the Personal Growth Toolkit
+Toolkits.PersonalGrowth.contact.form.message:::::: Your Message
+Toolkits.Empowerment.tools.items.0.icon:::::: fa-crown
+Toolkits.Empowerment.tools.items.1.icon:::::: fa-users
+Toolkits.Empowerment.tools.items.2.icon:::::: fa-microphone
+Toolkits.Empowerment.tools.items.3.icon:::::: fa-shield-alt
+Toolkits.Empowerment.tools.items.4.icon:::::: fa-fire
+Toolkits.Empowerment.tools.items.5.icon:::::: fa-star
+Toolkits.Empowerment.contact.info.email:::::: LuminaRiseSelfGrowth@gmail.com
+Toolkits.Empowerment.contact.form.name:::::: Your Name
+Toolkits.Empowerment.contact.form.email:::::: Your Email
+Toolkits.Empowerment.contact.form.subject:::::: Question about the Empowerment Essentials Toolkit
+Toolkits.Empowerment.contact.form.message:::::: Your Message
+Header.services:::::: Services
+Header.contact:::::: Contact

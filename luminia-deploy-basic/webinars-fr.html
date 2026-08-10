@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conférences Inspirantes | Lumina Rise</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #ff7f30; /* Orange vibrant de votre logo */
+            --secondary-color: #ffe577; /* Or doux/jaune de votre palette */
+            --accent-color: #fda63a; /* Accent ambre chaleureux */
+            --text-color: #333;
+            --light-color: #fff;
+            --dark-color: #333; /* Texte plus foncé pour l'en-tête */
+            --slate-blue: #5d6d7e; /* Bleu ardoise pour le texte sur fonds clairs */
+            --soft-peach: #fff2d9; /* Fond pêche doux */
+            --soft-pink: #ffcfcf; /* Accent rose doux */
+            --gradient: linear-gradient(135deg, #ff5a00, #fda63a, #ffe577); /* Dégradé orange à or */
+            --soft-gradient: linear-gradient(135deg, #fff2d9, #ffcfcf, #ffe6bb); /* Dégradé de fond doux */
+            --header-gradient: linear-gradient(135deg, #fff2d9, #ffe6bb, #ffcfad); /* Dégradé orange/jaune pâle pour l'en-tête */
+        }
+
+/* Sélecteur de langue */
+.language-selector {
+    margin-left: 20px;
+}
+
+.lang-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 15px;
+    background: var(--gradient);
+    color: var(--light-color);
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.lang-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.lang-btn i {
+    font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .language-selector {
+        position: absolute;
+        top: 20px;
+        right: 60px;
+    }
+    
+    .lang-btn {
+        padding: 6px 12px;
+        font-size: 0.85rem;
+    }
+}
+
+        ul li {
+            color: var(--slate-blue) !important;
+        }
+
+        .column ul li {
+            color: var(--slate-blue) !important;
+        }
+
+        ul li, ol li, .content-block ul li, .about-text ul li {
+            color: var(--slate-blue) !important;
+        }
+
+        .hero p {
+            color: var(--soft-peach) !important; 
+        }
+
+        .footer-col p, .copyright p {
+            color: #bbb !important; 
+        }
+
+        .section-title h2 {
+            color: var(--primary-color) !important;
+        }
+
+        .toolkit-card h3, .tool-card h3, .about-text h3, .content-block h3 {
+            color: var(--accent-color) !important;
+        }
+
+        .footer-col h4 {
+            color: var(--accent-color) !important;
+        }
+
+        .footer-col p, .footer-col ul li a, .copyright p {
+            color: #bbb !important;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        body {
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: var(--header-gradient);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo img {
+            height: 50px;
+            margin-right: 10px;
+        }
+        
+        .logo-text h1 {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            margin: 0;
+        }
+        
+        .logo-text p {
+            font-size: 0.8rem;
+            color: var(--dark-color);
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+        
+        .nav-links li {
+            margin-left: 30px;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: var(--dark-color);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+        
+        .hamburger {
+            display: none;
+            cursor: pointer;
+            font-size: 1.5rem;
+            color: var(--dark-color);
+        }
+        
+        .hero {
+            background: var(--dark-color);
+            color: var(--light-color);
+            padding: 150px 0 100px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('images/speaking-bg.jpg') center/cover no-repeat;
+            opacity: 0.3;
+            z-index: 0;
+        }
+        
+        .hero .container {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            color: var(--soft-peach);
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: var(--gradient);
+            color: var(--light-color);
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: all 0.3s;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+        }
+        
+        .content-section {
+            padding: 100px 0;
+            background-color: var(--soft-peach);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .section-title h2 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        
+        .section-title p {
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+            color: var(--slate-blue);
+        }
+        
+        .content-block {
+            margin-bottom: 60px;
+        }
+        
+        .content-block h3 {
+            font-size: 1.8rem;
+            color: var(--accent-color);
+            margin-bottom: 20px;
+        }
+        
+        .content-block p {
+            color: var(--slate-blue);
+            margin-bottom: 15px;
+        }
+        
+        .two-columns {
+            display: flex;
+            gap: 50px;
+            align-items: flex-start;
+            margin-top: 40px;
+        }
+        
+        .column {
+            flex: 1;
+        }
+        
+        .image-container {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .image-container img {
+            width: 100%;
+            display: block;
+        }
+        
+        .benefits-section {
+            padding: 80px 0;
+            background: var(--soft-gradient);
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .benefit-card {
+            background: var(--light-color);
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .benefit-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+        
+        .benefit-card i {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+        
+        .benefit-card h4 {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            color: var(--accent-color);
+        }
+        
+        .benefit-card p {
+            color: var(--slate-blue);
+        }
+        
+        .experience-section {
+            padding: 100px 0;
+            background-color: var(--soft-peach);
+        }
+        
+        .experience-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .experience-card {
+            background: var(--light-color);
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .experience-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+        
+        .experience-card h4 {
+            font-size: 1.5rem;
+            color: var(--accent-color);
+            margin-bottom: 15px;
+        }
+        
+        .experience-card p {
+            color: var(--slate-blue);
+            margin-bottom: 10px;
+        }
+        
+        .packages-section {
+            padding: 80px 0;
+            background: var(--soft-gradient);
+        }
+        
+        .packages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .package-card {
+            background: var(--light-color);
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            text-align: center;
+            position: relative;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .package-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+        
+        .package-card h4 {
+            font-size: 1.5rem;
+            color: var(--accent-color);
+            margin-bottom: 15px;
+        }
+        
+        .package-card .package-price {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+        
+        .package-card ul {
+            list-style: none;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        
+        .package-card ul li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .package-card ul li:before {
+            content: '✓';
+            color: var(--primary-color);
+            position: absolute;
+            left: 0;
+        }
+        
+        .package-card.featured {
+            border: 2px solid var(--accent-color);
+            transform: scale(1.05);
+        }
+        
+        .package-card.featured:hover {
+            transform: scale(1.05) translateY(-5px);
+        }
+        
+        .featured-tag {
+            position: absolute;
+            top: 0;
+            right: 30px;
+            background: var(--accent-color);
+            color: var(--light-color);
+            padding: 5px 15px;
+            font-size: 0.9rem;
+            border-radius: 0 0 10px 10px;
+        }
+        
+        .testimonials-section {
+            padding: 80px 0;
+            background: var(--soft-gradient);
+        }
+        
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .testimonial-card {
+            background: var(--light-color);
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            position: relative;
+        }
+        
+        .testimonial-card:before {
+            content: '"';
+            font-size: 5rem;
+            color: rgba(253,166,58,0.1);
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            line-height: 1;
+        }
+        
+        .testimonial-card p {
+            color: var(--slate-blue);
+            font-style: italic;
+            margin-bottom: 20px;
+            position
+
+z-index: 1;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+        }
+        
+        .testimonial-author p {
+            margin: 0;
+            font-style: normal;
+        }
+        
+        .cta-section {
+            text-align: center;
+            margin-top: 80px;
+            padding: 60px 0;
+            background: var(--soft-gradient);
+            border-radius: 10px;
+        }
+        
+        .cta-section h3 {
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+        
+        .cta-section p {
+            max-width: 700px;
+            margin: 0 auto 30px;
+            color: var(--slate-blue);
+        }
+        
+        footer {
+            background-color: var(--dark-color);
+            color: var(--light-color);
+            padding: 60px 0 20px;
+        }
+        
+        .footer-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-col h4 {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: var(--accent-color);
+        }
+        
+        .footer-col ul {
+            list-style: none;
+        }
+        
+        .footer-col ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-col ul a {
+            color: #bbb;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-col ul a:hover {
+            color: var(--accent-color);
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .social-links a {
+            color: var(--light-color);
+            background-color: rgba(255,255,255,0.1);
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            transition: all 0.3s;
+        }
+        
+        .social-links a:hover {
+            background: var(--gradient);
+            transform: translateY(-3px);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 0.9rem;
+            color: #bbb;
+        }
+        
+        @media (max-width: 992px) {
+            .two-columns {
+                flex-direction: column;
+            }
+            
+            .column {
+                flex: none;
+                width: 100%;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 80px;
+                left: 0;
+                right: 0;
+                background: var(--header-gradient);
+                flex-direction: column;
+                padding: 20px;
+                box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+            }
+            
+            .nav-links.active {
+                display: flex;
+            }
+            
+            .nav-links li {
+                margin: 10px 0;
+            }
+            
+            .hamburger {
+                display: block;
+            }
+            
+            .hero h2 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="images/logo.png" alt="Logo Lumina Rise">
+                    <div class="logo-text">
+                        <h1>Lumina Rise</h1>
+                        <p>Où le bien-être rencontre la croissance personnelle</p>
+                    </div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index-fr.html">Accueil</a></li>
+                    <li><a href="index-fr.html#about">À Propos</a></li>
+                    <li><a href="index-fr.html#services">Services</a></li>
+                    <li><a href="index-fr.html#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+<!-- Sélecteur de langue -->
+<div class="language-selector">
+    <a href="webinars.html" class="lang-btn" title="English version">
+        <i class="fas fa-globe"></i> EN
+    </a>
+</div>
+
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Conférences Inspirantes</h2>
+            <p>Inspirer les gens grâce à la psychologie positive et à des stratégies pratiques de croissance personnelle, disponibles en personne et en ligne.</p>
+            <a href="index-fr.html#contact" class="btn">Réserver une conférence</a>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Des échanges qui transforment</h2>
+                <p>Apporter des perspectives fondées sur des preuves et une inspiration sincère à votre prochain événement</p>
+            </div>
+            
+            <div class="content-block">
+                <div class="two-columns">
+                    <div class="column">
+                        <h3>Reprendre le pouvoir d'agir</h3>
+                        <p>En tant que conférencière, je fais le pont entre la psychologie positive scientifique et la réalité complexe de la vie quotidienne. Mes sessions sont conçues pour faire plus qu'inspirer; elles fournissent les outils pratiques nécessaires à une croissance durable.</p>
+                                               
+                        <p>Avec plus d'une décennie d'expérience dans mon propre parcours de développement personnel, je partage les habitudes, compétences et mentalités qui font vraiment la différence pour l'épanouissement personnel et le bien-être mental.</p>
+                    </div>
+                    
+                    <div class="column">
+                        <div class="image-container">
+                            <img src="images/speaking-event.jpg" alt="Gine lors d'un événement">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Pourquoi choisir les conférences Lumina Rise?</h2>
+                <p>Offrir une valeur qui résonne longtemps après la fin de la session</p>
+            </div>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <i class="fas fa-brain"></i>
+                    <h4>Fondé sur la science</h4>
+                    <p>Basé sur des principes de psychologie positive éprouvés pour améliorer le bien-être et la performance.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <i class="fas fa-tools"></i>
+                    <h4>Stratégies pratiques</h4>
+                    <p>Des stratégies concrètes que les participants peuvent mettre en œuvre le jour même.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <i class="fas fa-laptop-house"></i>
+                    <h4>Formats flexibles</h4>
+                    <p>Disponible pour des présentations dynamiques en personne ou des sessions virtuelles interactives de haute qualité.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <i class="fas fa-heart"></i>
+                    <h4>Connexion authentique</h4>
+                    <p>Une approche accessible qui favorise un espace sûr pour la vulnérabilité et la croissance authentique.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speaking Topics Section -->
+    <section class="experience-section" id="speaking">
+        <div class="container">
+            <div class="section-title">
+                <h2>Thèmes principaux</h2>
+                <p>Sessions spécialisées couvrant les piliers de la croissance personnelle et de la psychologie positive</p>
+            </div>
+            
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <h4>Ta valeur : L'art de se mettre en priorité</h4>
+                    <p>Explorez pourquoi vous êtes la personne la plus importante de votre propre vie. Nous discutons de la raison pour laquelle prioriser votre bien-être n'est pas égoïste. C'est la fondation de tout le reste. En vous mettant en priorité, vous renouvelez votre énergie, établissez des limites saines et gagnez la capacité de vous présenter de manière plus authentique pour les personnes et projets que vous aimez.</p>
+                </div>
+                
+                <div class="experience-card">
+                    <h4>Le Pouvoir de la constance : Créer des routines et des habitudes pour réussir
+</h4>
+                    <p>Le succès ne se construit pas du jour au lendemain; il se construit dans les moments quotidiens silencieux. Apprenez à construire des routines et habitudes durables en utilisant l'approche du 1%. Faire de petites améliorations progressives qui mènent à une transformation massive au fil du temps. Nous nous concentrons sur la psychologie de la construction du succès grâce au pouvoir cumulatif de petites actions cohérentes.</p>
+                </div>
+                
+                <div class="experience-card">
+                    <h4>Vivre une vie épanouissante</h4>
+                    <p>Allez au-delà du simple fait de "s'en sortir" et commencez à vivre avec intention. Cette session couvre les piliers fondamentaux d'une vie significative, vous aidant à aligner vos actions quotidiennes avec vos valeurs les plus profondes. Nous explorons des stratégies pratiques pour combler l'écart entre où vous êtes et où vous voulez être, créant une vie remplie de but, de joie et de satisfaction durable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Engagement Types Section -->
+    <section class="packages-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Types de conférences</h2>
+                <p>Choisissez le format qui convient le mieux à votre groupe ou organisation</p>
+            </div>
+            
+            <div class="packages-grid">
+                <div class="package-card">
+                    <h4>En Personne</h4>
+                    <p class="package-price">Environ 30-45 Minutes</p>
+                    <ul>
+                        <li>Présentation inspirante à fort impact</li>
+                        <li>Perspectives fondamentales de psychologie positive</li>
+                        <li>Période de questions incluse</li>
+                    </ul>
+                    <p>Parfait pour les conférences et grands événements</p>
+                    <a href="index-fr.html#contact" class="btn">Demander maintenant</a>
+                </div>
+                               
+                <div class="package-card">
+                    <h4>Virtuel</h4>
+                    <p class="package-price">Environ 30-45 minutes</p>
+                    <ul>
+                        <li>Présentation inspirante à fort impact</li>
+                        <li>Perspectives fondamentales de psychologie positive</li>
+                        <li>Période de questions incluse</li>
+                    </ul>
+                    <p>Idéal pour les équipes mondiales et communautés en ligne</p>
+                    <a href="index-fr.html#contact" class="btn">Demander Maintenant</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- CTA Section -->
+    <section class="container">
+        <div class="cta-section">
+            <h3>Prêt à inspirer votre audience?</h3>
+            <p>Collaborons pour créer une expérience mémorable qui déclenche une croissance authentique et un changement positif pour votre groupe.</p>
+            <a href="index-fr.html#contact" class="btn">Vérifier les disponibilités</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h4>Lumina Rise</h4>
+                    <p>Soutenir les femmes dans leur épanouissement en leur offrant des outils concrets, des ressources et un accompagnement bienveillant.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Liens Rapides</h4>
+                    <ul>
+                        <li><a href="index-fr.html">Accueil</a></li>
+                        <li><a href="index-fr.html#about">À Propos de Gine</a></li>
+                        <li><a href="index-fr.html#services">Tous les Services</a></li>
+                        <li><a href="index-fr.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Nous Contacter</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> luminariseselfgrowth@gmail.com</li>
+                        <li><i class="fas fa-globe"></i> www.luminarise.ca</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Lumina Rise Self-Growth. Tous Droits Réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.
+
+querySelector('.nav-links');
+        
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
